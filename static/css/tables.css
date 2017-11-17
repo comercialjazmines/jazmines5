@@ -1,0 +1,114 @@
+element {
+}
+.tablesuccess .tableheader {
+    background: #5ebd5e;
+}
+.tablesuccess .tableheader, .tablesuccess thead, .tablesuccess thead th, .tablesuccess thead tr {
+    border-color: #518d51 !important;
+    color: #fff;
+}
+.tableheader {
+    background: #fff;
+    position: relative;
+    border: 1px solid #e4e4e4;
+        border-top-color: rgb(228, 228, 228);
+        border-right-color: rgb(228, 228, 228);
+        border-bottom-color: rgb(228, 228, 228);
+        border-left-color: rgb(228, 228, 228);
+    margin-bottom: -1px;
+    padding: 10px 15px;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+}
+
+body {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #555;
+}
+html {
+    font-size: 62.5%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+}
+.tablee > caption + thead > tr:first-child > td, .tablee > caption + thead > tr:first-child > th, .tablee > colgroup + thead > tr:first-child > td, .tablee > colgroup + thead > tr:first-child > th, .tablee > thead:first-child > tr:first-child > td, .tablee > thead:first-child > tr:first-child > th {
+    border-top: 0;
+        border-top-color: currentcolor;
+}
+.tablebordered, .tablebordered > tbody > tr > td, .tablebordered > tbody > tr > th, .tablebordered > tfoot > tr > td, .tablebordered > tfoot > tr > th, .tablebordered > thead > tr > td, .tablebordered > thead > tr > th {
+    border-color: #e4e4e4;
+}
+.tablee tbody > tr > th, .tablee tfoot > tr > th, .tablee thead > tr > th {
+    font-weight: 600;
+}
+.tablee tbody > tr > td, .tablee tbody > tr > th, .tablee tfoot > tr > td, .tablee tfoot > tr > th, .tablee thead > tr > td, .tablee thead > tr > th {
+    border-top-color: #e4e4e4;
+}
+.tablebordered > thead > tr > td, .tablebordered > thead > tr > th {
+    border-bottom-width: 2px;
+}
+.tablebordered, .tablebordered > tbody > tr > td, .tablebordered > tbody > tr > th, .tablebordered > tfoot > tr > td, .tablebordered > tfoot > tr > th, .tablebordered > thead > tr > td, .tablebordered > thead > tr > th {
+    border: 1px solid #e4e4e4;
+        border-top-width: 1px;
+        border-bottom-width: 1px;
+        border-top-style: solid;
+        border-top-color: rgb(228, 228, 228);
+        border-right-color: rgb(228, 228, 228);
+        border-bottom-color: rgb(228, 228, 228);
+        border-left-color: rgb(228, 228, 228);
+}
+.tablee > thead > tr > th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #e4e4e4;
+}
+.tablee > tbody > tr > td, .tablee > tbody > tr > th, .tablee > tfoot > tr > td, .tablee > tfoot > tr > th, .tablee > thead > tr > td, .tablee > thead > tr > th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #e4e4e4;
+}
+.tablesuccess thead th, .tablesuccess thead tr {
+    background: #53a953;
+}
+.tablesuccess .tableheader, .tablesuccess thead, .tablesuccess thead th, .tablesuccess thead tr {
+    border-color: #518d51 !important;
+    color: #fff;
+}
+th {
+    text-align: left;
+}
+td, th {
+    padding: 0;
+
+}
+
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 1px;
+}
+.tablefooter {
+    min-height: 40px;
+    position: fixed;
+    border: 1px solid #e4e4e4;
+    line-height: 20px;
+    padding: 10px 15px;
+    width: 100%;
+    height: auto;
+    background: #fafafa;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.tablesuccess{
+    padding-bottom: 100px;
+}
+.area{
+    width: 60%;
+}
