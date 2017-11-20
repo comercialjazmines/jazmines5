@@ -81,7 +81,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 													 <ul class="dropdown-menu">
 														<li><a href="alianzas.html">Alianzas</a></li>
 
-														<li><a href="#">Convenios</a></li>
+														<li><a href="{% url 'convenios' %}">Convenios</a></li>
 													</ul>
 												</li>
 
@@ -206,12 +206,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="col-md-2 footer-info-grid links">
 					<h4>links Rapidos</h4>
 					<ul>
-						       <li><a href="index.html">Inicio</a></li> 
-								<li><a href="about.html">Acerca de Nosotros</a></li> 
-								<li><a href="planes.html">Planes</a></li> 
-								<li><a href="gallery.html">Parque Cementerio</a></li> 
-								<li><a href="contact.html">Contacto</a></li> 
-								<li><a href="terminos.html">Terminos y Condiciones</a></li> 
+						       <li><a href="{% url 'index' %}">Inicio</a></li>
+								<li><a href="{% url 'about' %}">Acerca de Nosotros</a></li>
+								<li><a href="{% url 'planes' %}">Planes</a></li>
+								<li><a href="{% url 'gallery' %}">Parque Cementerio</a></li>
+								<li><a href="{% url 'contacto' %}">Contacto</a></li>
+								<li><a href="{% url 'terminos' %}">Terminos y Condiciones</a></li>
 					</ul>
 				</div>
 				<div class="col-md-3 footer-info-grid address">
@@ -240,9 +240,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="footer-grid-instagram">
 					<a href="#"><img src="{% static 'images/f4.jpg' %}" alt=" " class="img-responsive"></a>
 					</div>
-					<div class="footer-grid-instagram">
-					<a href="#"><img src="images/f4.jpg" alt=" " class="img-responsive"></a>
-					</div>
+
 					<div class="clearfix"> </div>
 				</div>
 				<div class="col-md-4  footer-info-grid">
@@ -284,7 +282,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				    <p>Exequiales los Jazmines©2017 Reservados todos los derechos- Santa Rosa de Cabal-Risaralda- Colombia <a href="http://w3layouts.com/"></a></p>
 			</div>
 		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="{% static 'js/jquery-2.1.4.min.js' %}"></script>
 	<!-- Dropdown-Menu-JavaScript -->
 			<script>
 				$(document).ready(function(){

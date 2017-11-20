@@ -23,7 +23,9 @@ from jazmines.views import contact
 from jazmines.views import convenios
 from jazmines.views import login
 from jazmines.views import construccion
+from jazmines.views import terminos
 from jazmines.views import obituarios
+
 
 urlpatterns = [
     # Examples:
@@ -39,7 +41,9 @@ urlpatterns = [
     url(r'^contacto-en construccion/$', contact, name="contacto"),
     url(r'^convenios-en construccion/$', convenios, name="convenios"),
     url(r'^iniciosesion-en construccion/$', login, name="login"),
-    url(r'^obituarios-en construccion/$', obituarios, name="obituarios")
+    url(r'^obituarios-en construccion/$', obituarios, name="obituarios"),
+    url(r'^convenios-en construccion/$', convenios, name="convenios"),
+    url(r'^terminos-en construccion/$', terminos, name="terminos"),
 
 
 ]
