@@ -329,7 +329,7 @@ p.s-log {
     padding-right: 20px!important;
 }
 .dropdown-menu {
-    position: none;
+    position: relative;
     top: 185%;
     left: -9px;
     z-index: 1000;
@@ -680,7 +680,7 @@ h3.tittle.two {
 a.read {
     border: none;
     outline: none;
-    background: #fff;
+    background: #B38F47;
     padding: 0.7em 1.5em 0.7em 1.5em;
     color: #fff;
     text-transform: uppercase;
@@ -2729,6 +2729,11 @@ a.icon.gp {
     ul.nav.navbar-nav{
         margin-top: 3%;
         margin-left: 10em;
+        background-color: #B38F47;
+        border-width: 2px;
+        border-style: outset;
+        height: 28px;
+        text-align: center;
     }
 }
 @media (max-width:1470px){
@@ -2818,6 +2823,10 @@ a.icon.gp {
 		margin-left: 1em;
 		margin-top: 3em;
         background-color: #B38F47;
+        border-width: 2px;
+        border-style: outset;
+        height: 28px;
+        text-align: center;
 	}
 	.special-grids {
 		margin: 2em 0 0 0;
@@ -2848,6 +2857,11 @@ a.icon.gp {
 	ul.nav.navbar-nav {
 		margin-left: 6em;
 		margin-top: 2em;
+        background-color: #B38F47;
+        border-width: 2px;
+        border-style: outset;
+        height: 28px;
+        text-align: center;
 	}
 	.ab-w3l-spa p {
 		color: #555;

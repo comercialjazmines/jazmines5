@@ -24,3 +24,6 @@ def login(request):
 
 def construccion(request):
     return render(request, 'construccion.html')
+
+def obituarios(request):
+    return render(request, 'obituarios.html')
