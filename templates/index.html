@@ -62,7 +62,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="clearfix"></div>
 			</div>
 		</div>-->
-	<div id="demo-1" data-zs-src='["{% static 'images/4.JPG' %}", "{% static 'images/2.JPG' %}", "{% static 'images/1.JPG' %}","{% static 'images/3.JPG' %}"]' data-zs-overlay="dots">
+	<div id="demo-1" data-zs-src='["{% static 'images/4.jpg' %}", "{% static 'images/2.jpg' %}", "{% static 'images/1.jpg' %}","{% static 'images/3.jpg' %}"]' data-zs-overlay="dots">
 		<div class="demo-inner-content">
 		<!--/header-w3l-->
 			   <div class="header-w3-agileits" id="home">
@@ -91,7 +91,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 												 <li class="dropdown">
 													<a class="list_item" href="#" class="dropdown-toggle " >Mas-Beneficios<b class="caret"></b></a>
 													 <ul class="dropdown-menu">
-														<li><a href="alianzas.html">Alianzas</a></li>
+														<li><a href="{% url 'alianzas' %}">Alianzas</a></li>
 
 														<li><a href="{% url 'convenios' %}">Convenios</a></li>
 													</ul>
@@ -380,10 +380,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                    <h3 class="obituares obituare">NOTICIAS</h3> <br>
 						          <div class="grid">
 							      <figure class="effect-apollo">
-								    <a class="example-image-link" href="{% static 'images/10.jpg' %}" data-lightbox="example-set" data-title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut sem ac lectus mattis sagittis. Donec pulvinar quam sit amet est vestibulum volutpat. Phasellus sed nibh odio. Phasellus posuere at purus sit amet porttitor. Cras euismod egestas enim eget molestie. Aenean ornare condimentum odio, in lacinia felis finibus non. Nam faucibus libero et lectus finibus, sed porttitor velit pellentesque.">
-									<img src="{% static 'images/10.jpg' %}" alt="" />
+								    <a class="example-image-link" href="{% static 'images/premio2.jpg' %}" data-lightbox="example-set" data-title=
+                                            "“Concretar una venta es importante, pero lograr la fidelidad de los clientes es vital”. Stan Rapp
+                                              Dando inicio a nuestro programa de fidelización, expresamos nuestras mas sinceras felicitaciones a
+                                                nuestro primer ganador de mensualidad obsequio por estar siempre al día y ser puntual en los pagos.
+                                                Invitamos a todos nuestros afiliados a cumplir con su pago de manera oportuna para que como él,
+                                                participen en la rifa de mensualidades obsequio por parte de Exequiales los Jazmines... .">
+									<img src="{% static 'images/premio2.jpg' %}" alt="" />
 									<figcaption>
-										<p>Lotes <span></span></p>
+										<p>Premacion <span></span></p>
 									</figcaption>
 								</a>
 							</figure>
@@ -394,10 +399,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                     <h3 class="obituares obituare"> NUESTROS EVENTOS</h3> <br>
 						          <div class="grid">
 							      <figure class="effect-apollo">
-								    <a class="example-image-link" href="{% static 'images/10.jpg' %}" data-lightbox="example-set" data-title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut sem ac lectus mattis sagittis. Donec pulvinar quam sit amet est vestibulum volutpat. Phasellus sed nibh odio. Phasellus posuere at purus sit amet porttitor. Cras euismod egestas enim eget molestie. Aenean ornare condimentum odio, in lacinia felis finibus non. Nam faucibus libero et lectus finibus, sed porttitor velit pellentesque.">
-									<img src="{% static 'images/10.jpg' %}" alt="" />
+								    <a class="example-image-link" href="{% static 'images/virgen.png' %}" data-lightbox="example-set" data-title=
+                                            "Compartir con nuestros afiliados es vital, el dia jueves 7 de diciembre queremos invitarlos al alumbrado
+                                             en el parque cementerio. los esperamos! Jazmines, donde renace la esperanza">
+									<img src="{% static 'images/virgen.png' %}" alt="" />
 									<figcaption>
-										<p>Lotes <span></span></p>
+										<p>Dia de la virgen <span></span></p>
 									</figcaption>
 								</a>
 							</figure>
@@ -852,16 +859,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="col-md-3 footer-grid">
 				   <h4>Instagram</h4>
 					<div class="footer-grid-instagram">
-					<a href="#"><img src="{% static 'images/f1.jpg' %}" alt=" " class="img-responsive"></a>
+					<a href="#"><img src="{% static 'images/cementerio5.jpg' %}" alt=" " class="img-responsive"></a>
 					</div>
 					<div class="footer-grid-instagram">
-					<a href="#"><img src="{% static 'images/f2.jpg' %}" alt=" " class="img-responsive"></a>
+					<a href="#"><img src="{% static 'images/cementerio5.jpg' %}" alt=" " class="img-responsive"></a>
 					</div>
 					<div class="footer-grid-instagram">
-						<a href="#"><img src="{% static 'images/f3.jpg' %}" alt=" " class="img-responsive"></a>
+					<a href="#"><img src="{% static 'images/cementerio5.jpg' %}" alt=" " class="img-responsive"></a>
 					</div>
 					<div class="footer-grid-instagram">
-					<a href="#"><img src="{% static 'images/f4.jpg' %}" alt=" " class="img-responsive"></a>
+					<a href="#"><img src="{% static 'images/cementerio5.jpg' %}" alt=" " class="img-responsive"></a>
 					</div>
 					<div class="clearfix"> </div>
 				</div>

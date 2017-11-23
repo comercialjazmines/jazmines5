@@ -22,7 +22,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link rel="stylesheet" href="{% static 'css/flexslider.css' %}" type="text/css" media="screen" property="" />
 
 <link rel="stylesheet" type="text/css" href="{% static 'css/zoomslider.css' %}" />
-<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
+<link rel="stylesheet" type="text/css" href="{% static 'css/style_convenios.css' %}" />
 <link href="{% static 'css/font-awesome.css' %}" rel="stylesheet">
 <script type="text/javascript" src="{% static 'js/modernizr-2.6.2.min.js' %}"></script>
 <!--/web-fonts-->
@@ -78,7 +78,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 												 <li class="dropdown">
 													<a class="list_item" href="#" class="dropdown-toggle " >Mas-Beneficios<b class="caret"></b></a>
 													 <ul class="dropdown-menu">
-														<li><a href="alianzas.html">Alianzas</a></li>
+														<li><a href="{% url 'alianzas' %}">Alianzas</a></li>
 
 														<li><a href="{% url 'convenios' %}">Convenios</a></li>
 													</ul>
@@ -148,7 +148,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<div class="col-md-2 w3v_agileits_services_grid hvr-overline-from-center">
 									<div class="w3_agileits_services_grid_agile">
 										<div class="w3_agileits_services_grid_1">
-											<!--	<img src="images/5.jpg" alt="service-img">-->
+												<img src="{% static 'images/ascencion.jpeg' %}" alt="service-img">
 										</div>
 										<h3>LA ASCENSION</h3>
 										<p>TEL +57 (1) 3389090 BOGOTA DC.</p>
@@ -157,7 +157,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                 <div class="col-md-2 w3v_agileits_services_grid hvr-overline-from-center">
 									<div class="w3_agileits_services_grid_agile">
 										<div class="w3_agileits_services_grid_1">
-											<!--	<img src="images/5.jpg" alt="service-img">-->
+											<img src="{% static 'images/prever23.gif' %}" alt="service-img">
 										</div>
 										<h3>PREVER PREVISION GENERAL S.A.S</h3>
 										<p>TEL +57 (4) 5768980 MEDELLIN</p>
@@ -166,7 +166,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<div class="col-md-2 w3v_agileits_services_grid hvr-overline-from-center">
 									<div class="w3_agileits_services_grid_agile">
 										<div class="w3_agileits_services_grid_1">
-											<!--	<img src="images/5.jpg" alt="service-img">-->
+											<img src="{% static 'images/ofrenda.png' %}" alt="service-img">
 										</div>
 										<h3>LA OFRENDA</h3>
 										<p>TEL +57 (6) 3294060 PEREIRA</p>
@@ -175,7 +175,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<div class="col-md-2 w3v_agileits_services_grid hvr-overline-from-center">
 									<div class="w3_agileits_services_grid_agile">
 										<div class="w3_agileits_services_grid_1">
-											<!--	<img src="images/5.jpg" alt="service-img">-->
+											<img src="{% static 'images/los olivos.png' %}" alt="service-img">
 										</div>
 										<h3>LOS OLIVOS</h3>
 										<p>TEL +57 (1) 3290081 PEREIRA</p>
@@ -205,7 +205,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<div class="col-md-2 w3v_agileits_services_grid hvr-overline-from-center">
 									<div class="w3_agileits_services_grid_agile">
 										<div class="w3_agileits_services_grid_1">
-											<!--	<img src="images/5.jpg" alt="service-img">-->
+											<img src="{% static 'images/coorserpark.png' %}" alt="service-img">
 										</div>
 										<h3>COORSERPARK</h3>
 										<p>TEL +57 (1) 3450188 BOGOTA</p>
@@ -214,10 +214,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<div class="col-md-2 w3v_agileits_services_grid hvr-overline-from-center">
 									<div class="w3_agileits_services_grid_agile">
 										<div class="w3_agileits_services_grid_1">
-											<!--	<img src="images/5.jpg" alt="service-img">-->
+											<img src="{% static 'images/orquideas.png' %}" alt="service-img">
 										</div>
 										<h3>CONSORCIO ORQUIDEAS</h3>
-										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+										<p>TEL +57 (1) 3450188 BOGOTA</p>
 									</div>
 								</div>
                                 <div class="col-md-3 w3v_agileits_services_grid hvr-overline-from-center">
@@ -583,16 +583,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="col-md-3 footer-grid">
 				   <h4>Instagram</h4>
 					<div class="footer-grid-instagram">
-					<a href="#"><img src="{% static 'images/f1.jpg' %}" alt=" " class="img-responsive"></a>
+					<a href="#"><img src="{% static 'images/cementerio5.jpg' %}" alt=" " class="img-responsive"></a>
 					</div>
 					<div class="footer-grid-instagram">
-					<a href="#"><img src="{% static 'images/f2.jpg' %}" alt=" " class="img-responsive"></a>
+					<a href="#"><img src="{% static 'images/cementerio5.jpg' %}" alt=" " class="img-responsive"></a>
 					</div>
 					<div class="footer-grid-instagram">
-						<a href="#"><img src="{% static 'images/f3.jpg' %}" alt=" " class="img-responsive"></a>
+					<a href="#"><img src="{% static 'images/cementerio5.jpg' %}" alt=" " class="img-responsive"></a>
 					</div>
 					<div class="footer-grid-instagram">
-					<a href="#"><img src="{% static 'images/f4.jpg' %}" alt=" " class="img-responsive"></a>
+					<a href="#"><img src="{% static 'images/cementerio5.jpg' %}" alt=" " class="img-responsive"></a>
 					</div>
 					<div class="clearfix"> </div>
 				</div>

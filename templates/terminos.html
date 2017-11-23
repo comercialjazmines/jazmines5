@@ -8,7 +8,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-<title>Planes</title>
+<title>TERMINOS Y CONDICIONES</title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon"  href="{% static 'images/favicon.ico' %}">
@@ -79,7 +79,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 												 <li class="dropdown">
 													<a class="list_item" href="codes.html" class="dropdown-toggle hvr-bounce-to-bottom" data-hover="Pages" data-toggle="dropdown" aria-expanded="false">Mas Beneficios <b class="caret"></b></a>
 													 <ul class="dropdown-menu">
-														<li><a href="alianzas.html">Alianzas</a></li>
+														<li><a href="{% url 'alianzas' %}">Alianzas</a></li>
 
 														<li><a href="{% url 'convenios' %}">Convenios</a></li>
 													</ul>
@@ -146,86 +146,409 @@ Yo _______________________ quién para efectos del presente Contrato se denomina
 CLÁUSULA PRIMERA. OBJETO. Por medio del presente Contrato de prestación de Servicios Exequiales, El Afiliado y su grupo de personas previamente inscritas, adquieren el derecho a recibir  servicios de tipo Exequial, los cuáles se entienden como Servicios Funerarios o el conjunto de actividades organizadas para la realización de honras fúnebres, el cual consta de:
 
                         </p>
-								<!-- services -->
-						<!--	<div class="w3_agileits_services_grids">
-								<div class="col-md-3 w3a_agileits_services_grid hvr-overline-from-center">
-									<div class="w3c_agileits_services_grid_agile">
-										<div class="w3_agileits_services_grid_1">
-											<img src="{% static 'images/5.jpg' %}" alt="service-img">
-										</div>
-										<h3>INCLUYENTES</h3>
-										<p class="plans">Entender las preferencias religiosas es muy importante, por ello realizamos las adaptaciones requeridas para ofrecer un espacio en nuestras salas acorde a sus creencias y rituales, todo enmarcado en el respeto por lo demás. </p>
-									</div>
-								</div>
-								<div class="col-md-3 w3a_agileits_services_grid hvr-overline-from-center">
-									<div class="w3c_agileits_services_grid_agile">
-										<div class="w3_agileits_services_grid_1">
-											<img src="{% static 'images/6.jpg' %}" alt="service-img">
-										</div>
-										<h3>VISION SOCIAL</h3>
-										<p class="plans">Grupos familiares diversos, entre ellos  las madres cabeza de hogar, poseen grandes responsabilidades que requieren del apoyo de la sociedad en general y nosotros entregamos para estas familias planes con valores preferenciales que les permitan cubrir de manera digna a todo su grupo base.
+                         <table class="terminos terminosborder">
+                            <thead class="terminos-bordered">
+                            <th class="beneficts">BENEFICIOS</th>
+                            <th class="clasico">CLASICO</th>
+                            <th class="preferente">PREFERENTE</th>
+                            <th class="vip">VIP</th>
+                            </thead>
+                             <tbody>
+                             <tr>
+                                 <td colspan="4" class="service-terminos">SERVICIO INICIAL</td>
+                             </tr>
+                             <tr>
+                                 <td class="beneficts-content">Traslado del cuerpo</td>
+                                 <td class="clasico-content">Solo local</td>
+                                 <td class="preferente-content">Territorio Nacional</td>
+                                 <td class="vip-content">Territorio Nacional</td>
+                             </tr>
+                             <tr>
+                                 <td class="beneficts-content">Sala de Velacion por 24 Horas(Sedes propias Santa Rosa y Chinchina</td>
+                                 <td class="clasico-content">Tipo Clasica</td>
+                                 <td class="preferente-content">Tipo Preferente</td>
+                                 <td class="vip-content">Tipo VIP</td>
+                             </tr>
+                             <tr>
+                                 <td class="beneficts-content">Misa de Exequias</td>
+                                 <td class="clasico-content">APLICA</td>
+                                 <td class="preferente-content">APLICA</td>
+                                 <td class="vip-content">APLICA</td>
+                             </tr>
+                             <tr>
+                                 <td class="beneficts-content">Acompañamiento en Diligencias</td>
+                                 <td class="clasico-content">APLICA</td>
+                                 <td class="preferente-content">APLICA</td>
+                                 <td class="vip-content">APLICA</td>
+                             </tr>
+                             <tr>
+                                 <td class="beneficts-content">Servicio de Cafeteria</td>
+                                 <td class="clasico-content">APLICA</td>
+                                 <td class="preferente-content">APLICA</td>
+                                 <td class="vip-content">APLICA</td>
+                             </tr>
+                             <tr>
+                                 <td class="beneficts-content">Servicio de Telefonia Local</td>
+                                 <td class="clasico-content">APLICA</td>
+                                 <td class="preferente-content">APLICA</td>
+                                 <td class="vip-content">APLICA</td>
+                             </tr>
+                             <tr>
+                                 <td class="beneficts-content">Ofrenda Floral</td>
+                                 <td class="clasico-content">APLICA</td>
+                                 <td class="preferente-content">APLICA</td>
+                                 <td class="vip-content">APLICA</td>
+                             </tr>
+                             <tr>
+                                 <td class="beneficts-content">Recordatorio de Asistencia</td>
+                                 <td class="clasico-content">APLICA</td>
+                                 <td class="preferente-content">APLICA</td>
+                                 <td class="vip-content">APLICA</td>
+                             </tr>
+                             <tr>
+                                 <td class="beneficts-content">Novena y Camandula</td>
+                                 <td class="clasico-content">APLICA</td>
+                                 <td class="preferente-content">APLICA</td>
+                                 <td class="vip-content">APLICA</td>
+                             </tr>
+                             <tr>
+                                 <td class="beneficts-content">Serie de Carteles</td>
+                                 <td class="clasico-content">APLICA</td>
+                                 <td class="preferente-content">APLICA</td>
+                                 <td class="vip-content">APLICA</td>
+                             </tr>
+                             <tr>
+                                 <td class="beneficts-content">Targetas de Agradecimiento</td>
+                                 <td class="clasico-content">APLICA</td>
+                                 <td class="preferente-content">APLICA</td>
+                                 <td class="vip-content">APLICA</td>
+                             </tr>
+                             <tr>
+                                 <td class="beneficts-content">Cinta Membrentada</td>
+                                 <td class="clasico-content">APLICA</td>
+                                 <td class="preferente-content">APLICA</td>
+                                 <td class="vip-content">APLICA</td>
+                             </tr>
+                             <tr>
+                                 <td class="beneficts-content">Carro Funebre</td>
+                                 <td class="clasico-content">APLICA</td>
+                                 <td class="preferente-content">APLICA</td>
+                                 <td class="vip-content">APLICA</td>
+                             </tr>
+                             <tr>
+                                 <td class="beneficts-content">Juego de Cirios</td>
+                                 <td class="clasico-content">APLICA</td>
+                                 <td class="preferente-content">APLICA</td>
+                                 <td class="vip-content">APLICA</td>
+                             </tr>
+                             <tr>
+                                 <td class="beneficts-content">Un (1) Bus para acompañantes</td>
+                                 <td class="clasico-content">APLICA</td>
+                                 <td class="preferente-content">APLICA</td>
+                                 <td class="vip-content">APLICA</td>
+                             </tr>
+                             <tr>
+                                 <td class="beneficts-content">Cortejo de acompañamiento</td>
+                                 <td class="clasico-content">APLICA</td>
+                                  <td class="preferente-content">APLICA</td>
+                                 <td class="vip-content">APLICA</td>
+                             </tr>
+                             <tr>
+                                 <td class="beneficts-content">Misa colectiva de Aniversario</td>
+                                 <td class="clasico-content">APLICA</td>
+                                 <td class="preferente-content">APLICA</td>
+                                 <td class="vip-content">APLICA</td>
+                             </tr>
+                              <tr>
+                                  <td colspan="4" class="service-terminos">DESTINO FINAL</td>
+                              </tr>
 
-</p>
-									</div>
-								</div>
-								<div class="col-md-3 w3a_agileits_services_grid hvr-overline-from-center">
-									<div class="w3c_agileits_services_grid_agile">
-										<div class="w3_agileits_services_grid_1">
-											<img src="{% static 'images/7.jpg' %}" alt="service-img">
-										</div>
-										<h3>AMIGOS</h3>
-										<p class="plans">Los planes buscan cubrir el grupo familiar más cercano, sin embargo entendemos que existen personas cercanas a nuestro grupo familiar que podemos acoger y brindarles protección exequial, en estas personas también pensamos.</p>
-									</div>
-								</div>
-							<!--	<div class="col-md-3 w3_agileits_services_grid hvr-overline-from-center">
-									<div class="w3_agileits_services_grid_agile">
-										<div class="w3_agileits_services_grid_1">
-											<img src="images/8.jpg" alt="service-img">
-										</div>
-										<h3>PREFERENTE</h3>
-										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-									</div>
-								</div>-->
-							<!--	<div class="clearfix"> </div>
-							</div>
-							<div class="w3_agileits_services_grids">
-								<div class="col-md-3 w3a_agileits_services_grid hvr-overline-from-center">
-									<div class="w3c_agileits_services_grid_agile">
-										<div class="w3_agileits_services_grid_1">
-											<img src="{% static 'images/5.jpg' %}" alt="service-img">
-										</div>
-										<h3>GRUPOS NUMEROSOS</h3>
-										<p class="plans">La unidad familiar marca un factor fundamental en la vida de cada persona y cuando somos un grupo numeroso y queremos estar integrados en un mismo plan, les entregamos la alternativa ideal para permanecer juntos aún en este servicio.</p>
-									</div>
-								</div>
-								<div class="col-md-3 w3a_agileits_services_grid hvr-overline-from-center">
-									<div class="w3c_agileits_services_grid_agile">
-										<div class="w3_agileits_services_grid_1">
-											<img src="{% static 'images/6.jpg' %}" alt="service-img">
-										</div>
-										<h3>EMPRESARIALES</h3>
-										<p class="plans">Grandes beneficios entregamos a las empresas que se comprometen con el bienestar de su equipo de colaboradores, entregando tarifas especiales para su grupo y alineándonos con necesidades específicas de la empresa que nos interesa cubrir.</p>
-									</div>
-								</div>
-								<div class="col-md-3 w3a_agileits_services_grid hvr-overline-from-center">
-									<div class="w3c_agileits_services_grid_agile">
-										<div class="w3_agileits_services_grid_1">
-											<img src="{% static 'images/7.jpg' %}" alt="service-img">
-										</div>
-										<h3>OPORTUNIDADES</h3>
-										<p class="plans">Nos interesa ayudar a la comunidad en general, así que ofrecemos alternativas de vinculación especiales como líderes comunitarios y/o empresariales que deseen encontrar mayores oportunidades.</p>
-									</div>
-								</div>
-							<!--	<div class="col-md-3 w3_agileits_services_grid hvr-overline-from-center">
-									<div class="w3_agileits_services_grid_agile">
-										<div class="w3_agileits_services_grid_1">
-											<img src="images/8.jpg" alt="service-img">
-										</div>
-										<h3>PRENECESIDAD</h3>
-										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-									</div>
-								</div>-->
-								<div class="clearfix"> </div>
+                             <tr>
+                                  <td class="beneficts-content">Lote en Calidad de Prestamo por 4 años en el Parque Cementerio los Jazmines de Santa Rosa de Cabal</td>
+                                  <td class="clasico-content">Zona Clasica</td>
+                                  <td class="preferente-content">Zona Preferente</td>
+                                  <td class="vip-content">Zona VIP</td>
+                              </tr>
+                             <tr>
+                                  <td class="beneficts-content">Cremacioñ</td>
+                                  <td class="clasico-content">Local</td>
+                                  <td class="preferente-content">Local y Nacional</td>
+                                  <td class="vip-content">Local y Nacional</td>
+                              </tr>
+                               <tr>
+                                  <td class="beneficts-content">Aporte para otro tipo de Destino Final</td>
+                                  <td class="clasico-content">0.5 SMMLV</td>
+                                  <td class="preferente-content">0.5 SMMLV</td>
+                                  <td class="vip-content">1 SMMLV</td>
+                              </tr>
+                             </tbody>
+                         </table>
+                                <p><b>PARÁGRAFO PRIMERO.</b>
+                              Para efectos del presente Contrato y en atención a los términos del Artículo N° 111 de la Ley 797 del 2003,
+                              se entiende que los Servicios Funerarios que prestará La Organización,
+                                    <b>NO CONSTITUYEN ACTIVIDAD ASEGURADORA.</b></p>
+                                <p><b>CLÁUSULA SEGUNDA.  TRASLADO CUERPO Y SALA DE VELACION:</b>
+                                    En los planes Clásicos y Pre-mio el traslado del cuerpo solo aplica traslado local
+                                    (SANTA ROSA DE CABAL – DOSQUEBRADAS – PEREIRA – CHINCHINA).
+                                    El traslado Nacional aplica solo un destino para traslado del cuerpo, ejemplo: MANIZALES – ARMENIA / CARTAGENA – CALI.
+                                    Aplica para planes Preferente y V.I.P. Se prestara Servicio de Sala de velación por 24 en nuestras instalaciones (Santa Rosa de Cabal – Pereira – Chinchiná),
+                                    en otras ciudades según política interna de la empresa prestadora del Servicio. </p>
+                                <p><b>CLÁUSULA TERCERA</b>.  DURACIÓN Y VALOR DE LAS CUOTAS.  El término de duración del Contrato será de un (01) año contado a partir de la fecha de la firma del presente documento;
+                                    una vez vencido el contrato este se renovará automáticamente y de manera indefinida por lapsos iguales de tiempo mientras se esté al día con el pago de las cuotas correspondientes.
+                                    Las modificaciones que el Afiliado necesite realizar en su contrato inicial de prestación de Servicios exequiales las podrá realizar transcurridos 6 meses después de la afiliación inicial.
+                                    El valor de las cuotas será el que La Organización establezca dependiendo del Plan que El Afiliado elija al diligenciar el documento de Solicitud de Servicios.
+                                    PARÁGRAFO PRIMERO.  FORMA DE PAGO. El Afiliado  pagará el valor de las cuotas pactadas dentro de los plazos convenidos con La Organización y de manera anticipada. (Mes anticipado no mes vencido).
+                                    El tiempo limite estipulado para cancelar la previsión exequial es de 10 días después de la fecha de pago,
+                                    si pasado este tiempo no se esta al día en los pagos y se presenta un servicio solo se cubrirá el 50% del servicio;
+                                    Así se realice el pago para quedar al día. NOTA1: Después de pasados 2 meses de atrasó, poseerá una sanción de 15 días en caso de necesitar un servicio solo tendrá derecho al 50%de este; esto aplica para servicios prestados en Pereira – Santa Rosa de Cabal y Chinchiná.
+                                    De ser tomado el servicio en otra ciudad la Organización se encargara de negociar el 50% al que se tiene derecho por el atraso en los pagos en la funeraria que tenga convenio con nuestra empresa.  Nota2:
+                                    La organización será la encargada de contratar directamente con la empresa prestadora del servicio exequial en otra ciudad, ya que estos serán servicios prestados expresamente mediante convenios establecidos por dichas empresas.
+                                    (La organización se reserva el derecho de elegir la empresa prestadora del servicio exequial). Nota 3: A continuación se describen los precios de un servicio exequial discriminando el plan elegido por el comprador y al cual tienen derecho a través de la afiliación en EXEQUIALES LOS JAZMINES S.A.S.
+                                Clásicos – Pre-mío – Multi-Protección – Plan Traslado Clásico- Empresariales sin y con traslado:     $1.500.000 (servicios que se especifican en la cláusula primera)
+                                referente – Mega-Protección: $2.000.000 (servicios que se especifican en la cláusula primera)
+                                V.I.P: $2.500.000 (servicios que se especifican en la cláusula primera)
+                                NOTA: Estos valores tienen incremento anual según lo decida y autorice la Junta Directiva; sujeto a cambios sin previo aviso.
+                                </p>
+                                <p><b>CLÁUSULA CUARTA. BENEFICIARIOS</b>. Son Beneficiarios del presente Contrato y así se denominarán,  todas aquellas personas expresamente mencionadas por El Afiliado en la Solicitud de Servicios,
+                                    y que se encuentren registrados en el presente contrato.</p>
+                                <p><b>CLÁUSULA QUINTA. REQUISITOS PARA LA AFILIACIÓN</b>. Los siguientes,
+                                    son los requisitos especiales establecidos para la vinculación de El Afiliado  y de sus Beneficiarios: 1.
+                                    El Afiliado  debe tener más de dieciocho (18) años y hasta sesenta y cinco (65) años de edad para ser el titular del Contrato.
+                                    2.  El Afiliado podrá designar como Beneficiarios del Contrato a quién acredite tener algún grado de consanguinidad,
+                                    afinidad legal o civil;  El (la) cónyuge o compañero(a) permanente, los hijos de El Afiliado o de su cónyuge o compañero(a)
+                                    permanente, los abuelos, los padres, los hermanos, tíos y/o sobrinos, primos, cuñados (as).</p>
+                                <p><b>CLÁUSULA SEXTA. PERÍODOS DE CARENCIA.</b> Para efectos de este Contrato, el Período de Carencia es aquél dentro del cuál el Contrato
+                                    no produce ningún efecto, sino hasta que se verifiquen las siguientes condiciones: 1.  El Afiliado y sus Beneficiarios,
+                                    tendrán derecho a los Servicios Exequiales, 60 días después de que sea verificado el primer pago, siempre y cuando el
+                                    afiliado se encuentre a paz y salvo en las cuotas. 2. En el momento de la afiliación los titulares deben ser lo más
+                                    claros posibles ya que si dentro del grupo se ingresa un beneficiario el cual tenga una enfermedad terminal tendrá
+                                    derecho al servicio 120 días después de verificado el primer pago; después de cumplido este tiempo de carencia solo
+                                    tendrá derecho al 50% del servicio. NOTA: El adulto mayor se recibirá como ingreso nuevo con las carencias respectivas,
+                                    sin destino final (misa – bóveda – lote - cremación), ni traslado nacional; (Aplica según condiciones del plan exequial);
+                                    resaltando que todos los planes son diferentes en cuanto a servicios. Si antes de cumplir la carencia aplicada ocurre
+                                    un servicio a este no se le reconocerá el 50% del servicio, esto aplica solo para el adulto mayor.
+                                    NOTA1 1. Las preexistencias no declaradas deliberadamente serán cotejadas contra la historia clínica y
+                                    cualquier inconsistencia exonera de toda responsabilidad a La Organización y somete a El Afiliado a las
+                                    sanciones civiles o penales a que haya lugar según la ley. 3. Para efectos de los Períodos de Carencia,
+                                    La Organización se compromete a dar continuidad al Contrato de El Afiliado y los Beneficiarios que se
+                                    trasladen de otra Entidad Funeraria, siempre y cuando presente el Contrato de la otra Entidad y el
+                                    Paz y Salvo de los últimos dos (02) meses expedido por la Empresa donde estaba afiliado.
+                                    4.  El Afiliado que venga de otra Entidad Funeraria, entiende que se adhiere al Contrato de
+                                    La Organización., y que por lo tanto acepta las condiciones y restricciones preestablecidas.
+                                    PARÁGRAFO: La Organización establecerá carencias independientes para los Beneficiarios designados por
+                                    El Afiliado que por sus condiciones especiales, así lo requieran. (Edad – enfermedades).
+                                    NOTA2: En caso tal de utilizar el servicio de cremación el cofre seleccionado entrara en
+                                    el contrato en calidad de préstamo. NOTA3: Todo documento adicional requerido por el
+                                    afiliado y/o beneficiarios, tales como copias de contratos,
+                                    carnet o certificados de afiliación tendrá un costo adicional el cual debe ser cancelado en el momento de la solicitud. </p>
+                                <p>
+                                    <b>CLÁUSULA SEPTIMA. CLÁUSULA PENAL.</b>En el evento que El Afiliado, cesara en el pago de las cuotas,
+                                    La Organización quedará facultada para dar por terminado el Contrato, pasados 180 días.
+                                    El Afiliado no tendrá derecho a la devolución de las  cuotas pagadas,
+                                    las cuáles se retendrán en calidad de pago de perjuicios ocasionados por el incumplimiento.
+                                </p>
+                                <p>
+                                    <b>CLÁUSULA OCTAVA. CONDICIONES ESPECIALES</b>. El Afiliado, acepta las siguientes condiciones especiales,
+                                    durante el desarrollo del Contrato: 1.  Si El Afiliado o su grupo de personas inscritas, están vinculadas a otra
+                                    Entidad Funeraria además de Exequiales Los Jazmines S.A.S, La Organización les prestará el servicio sí es la
+                                    escogida y solicitada por El Afiliado. De igual manera, La Organización NO reconocerá ni pagará reembolso por
+                                    Servicios totales o parciales que hayan utilizado con la otra Entidad Funeraria.
+                                    (ley 795, Articulo 111 del 14 de Enero de 2003)  2.  Si existe doble vinculación de algún Beneficiario o de
+                                    El Afiliado con La Organización y/o en otras entidades funerarias,  el Servicio exequial se prestara por
+                                    medio del Contrato que escoja quién lo solicite. PARÁGRAFO 1. En ningún caso, El Afiliado o sus
+                                    Beneficiarios, podrán exigir el pago de ningún tipo de indemnización o compensación económica invocando
+                                    los pagos hechos en los dos Contratos.  3. La reticencia (silencio) o la falta de veracidad en los
+                                    datos suministrados por El Afiliado o su grupo de personas
+                                    (en cuanto a edad, parentesco, documento de identidad, preexistencia de enfermedades terminales) o
+                                    en cualquier tipo de información solicitada a
+                                    El Afiliado o sus Beneficiarios, será causal de terminación del Contrato y por lo tanto deja sin efecto las
+                                    obligaciones contratadas.
+                                    4.  Los Afiliados ó Beneficiarios del Contrato, deben reportar las novedades de estado de Embarazo
+                                    con el fin de que sea cubierta cualquier eventualidad. 5. El Afiliado es el único que puede hacer
+                                    modificaciones al Contrato. Si fallece algún Beneficiario, éste podrá hacer reemplazo de beneficiario
+                                    y/o cambio de titular si así lo requiere, teniendo en cuenta que para estos casos las condiciones que
+                                    regirán al nuevo Beneficiario serán las del Contrato vigente al momento de la reposición y no las del
+                                    Contrato inicial.  6.  Todas las modificaciones que se efectúen al presente Contrato deberán hacerse
+                                    por escrito, y por lo tanto deja sin validez cualquier acuerdo verbal, para realizar las modificaciones
+                                    y que estas sean aceptadas deben estar presentes el Titular y su (s) nuevos beneficiarios, los cuales
+                                    tienen del deber de firmar el documento que acredita la modificación con sus respectivas carencias de servicio.
+                                    7. La Organización, se reserva el derecho de uso de  las Salas de Velación, por motivos de salud pública,
+                                    como muerte por enfermedad altamente infecciosa,
+                                    estado avanzado de descomposición o cualquier otra causa que a criterio de La Organización obligue a restringir
+                                    el uso de las mismas.
+                                </p>
+                                <p>
+                                    <b>CLÁUSULA NOVENA. SOLICITUD DE LOS SERVICIOS EXEQUIALES</b>.  En el evento en que se requiera solicitar la prestación del
+                                    Servicio Exequial, PARA TODOS LOS CASOS, se podrá acudir personalmente a cualquiera de las Sedes de la
+                                    Empresa en horario convencional ó, telefónicamente a los números destinados para tal fin  dispuestos las 24 horas del día.
+                                    El solicitante, deberá presentar la copia del Contrato, el último Recibo de Pago y los demás documentos requeridos por ley.
+                                </p>
+                                <p>
+                                  <b> CLÁUSULA DECIMA. PRECIOS Y DESCUENTOS.</b> La Organización se reserva el derecho a fijar los precios, tarifas, plazos,
+                                    descuentos, intereses, incrementos, obsequios, programas de cortesía y todo lo relacionado con el ítem de valores;
+                                    lo anterior dentro del marco legal y el código de comercio vigente.
+                                </p>
+                                <p>
+                                    <b>CLÁUSULA DECIMO PRIMERA. EXHUMACIÓN:</b> Será responsabilidad de la familia y/o titular del plan realizar
+                                    la Exhumación del Cuerpo a los 4 años siguientes a su inhumación en el PARQUE CEMENTERIO LOS JAZMINES S.A.S,
+                                    siendo este un gasto adicional, el cual no es cubierto por el Plan Exequial.
+                                    Es responsabilidad de la organización realizar (4) anuncios verbales en el
+                                    parque cementerio y envió de correspondencia basados en la información que
+                                    contempla nuestra base de datos. Si transcurrido un mes después del primer
+                                    anuncio no se tiene respuesta por parte de los familiares, la empresa procederá a
+                                    realizar las exhumaciones correspondientes a fosa común.Nota: Se aclara que para obtener el descuento en la exhumación
+                                    (4 años después de la inhumación en el lote en préstamo) es obligatorio continuar cancelando el plan exequial por el
+                                    cual se tomó el servicio de lo contrario, el valor a cancelar será el que tenga lugar en ese momento.
+
+                                </p>
+                                <p>
+                                    <b>CONDICIONES ESPECIALES.</b>
+
+                                    1. No obstante las cláusulas anteriores, La Organización salva su responsabilidad ante el evento de que sean expedidas normas de carácter legal, administrativo o reglamentario, orden o fallo de la autoridad competente, tales como: contribuciones, tasas, impuestos o gravámenes en general que afecten de alguna manera cualquier característica o beneficio de los servicios adquiridos en este contrato.
+                                    2. En caso de catástrofe natural o humana, guerra interior o exterior, o muerte accidental o violenta colectiva los servicios serán asistidos como hasta ahora por el ente gubernamental encargado. Se entiende por muerte colectiva después de 5 Servicios Exequiales.
+
+                                    En constancia de haber leído y aceptado las condiciones contenidas en el presente documento, se firma por las  partes en dos ejemplares del mismo tenor.</p>
+                                  <div class="container">
+                                       <div class="col-md-6 col-xs-6">
+                                            <p>
+                                                 __________________
+                                                  Representante Legal
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6 col-xs-6">
+                                            <p>
+                                                 __________________
+                                                  Afiliado
+                                            </p>
+                                        </div>
+                                  </div>
+
+                                <p>
+                                  <b> CONTRATO  DE COMPRAVENTA DE PARQUE CEMENTERIO</b>
+
+                                    Entre los suscritos a saber EXEQUIALES LOS JAZMINES S.A.S, actuando por intermedio de su Representante
+                                    Legal o quién esté autorizado para ello y quién  para efectos del presente Contrato  se denominará la
+                                    organización,  y_________________________________________ mayor de edad identificado(a) con Cédula de
+                                    Ciudadanía N°___________________                                                         y quién para
+                                    efectos del presente contrato  se denominará El Comprador, se ha celebrado el siguiente Contrato de
+                                    Compraventa:
+
+                                </p>
+                                <p>
+                                    <b>PRIMERO. OBJETO.</b> Por medio del presente Contrato de Compraventa, La Organización otorga al comprador o a la persona que este
+                                    designe como beneficiario, El Título a perpetuidad por medio del cual se adquiere el derecho al Servicio Funerario correspondiente
+                                    al Lote – Mausoleo – Osario – Columbario.
+                                    El valor nominal cancelado por El Comprador, será el mismo valor estipulado en la Factura de Compraventa de estos productos.
+                                </p>
+                                <p>
+                                    <b>SEGUNDO. BENEFICIARIO.</b> Será propietario del Título a perpetuidad ÚNICAMENTE aquella persona que haya sido designada como
+                                    El Comprador.
+                                </p>
+                                <p>
+                                    <b>TERCERO. REGLAMENTO INTERNO:</b> Se hará la entrega respectiva del reglamento interno del Parque Cementerio los Jazmines en el momento
+                                    de la firma de este contrato según sea la propiedad Osario – Columbario - Lote y/o Mausoleo,
+                                    y declara el respectivo comprador que recibe y comprende a su entera satisfacción dicho reglamento.
+                                </p>
+                                <p>
+                                    <b>CUARTA. COBERTURA – TITULO A PERPETUIDAD:</b> 1. El Comprador que se encuentre en mora en el pago de
+                                    (02) ó más cuotas pactadas y durante el término establecido al momento de firmar el presente Contrato,
+                                    tendrá derecho al Servicio Funerario, hasta 15 días después ser verificada la cancelación total del
+                                    Título al momento de solicitar el servicio Funerario.  2.  Si estando al día en el pago de las cuotas
+                                    pactadas y se produce el fallecimiento del Beneficiario del Título, se prestará el Servicio Funerario
+                                    inmediatamente se verifique la cancelación total del Título. LOTES- MAUSOLEOS: 1. La Organización
+                                    otorgará TITULO A PERPETUIDAD de los Lotes y Mausoleos, después de verificar el pago total del mismo
+                                    y teniendo en cuenta el tiempo que  demoren los trámites que se requieren para ello.  2.
+                                    La Factura de Compraventa será expedida por el valor nominal de la siguiente manera: A.  75% por
+                                    valor de la Compra del Producto.  B.  25% por valor del Mantenimiento de la Propiedad,
+                                    durante un (01) año contado a partir de la fecha de la firma del presente Contrato. 3.
+                                    El Comprador deberá cancelar de manera anual la cuota de Mantenimiento establecida por
+                                    La Organización al vencimiento del primer año (según fecha de compra) del Lote o Mausoleo.
+                                </p>
+                                <p>
+                                    <b>QUINTA. CONDICIONES DE PAGO.</b> 1. Las partes convienen el plazo y el valor de las cuotas pactadas, del Titulo – Osario – Columbario –
+                                    Lote – Mausoleo adquirido. 2.
+                                    Al incurrir en mora la Organización cobrara intereses moratorios a la máxima tasa autorizada por la Superintendencia Financiera.
+                                </p>
+                                <p>
+                                    <b>SEXTA. TERMINACIÓN DEL CONTRATO.</b>  1. El presente Contrato podrá ser terminado de manera unilateral por
+                                    parte de La Organización, cuando El Comprador cese en el pago de las cuotas, evento en el cual
+                                    La Organización le notificará por escrito a la dirección informada en el Contrato. A partir de los
+                                    primeros noventa (90) días de mora, se entiende que La Organización podrá comercializar el
+                                    Titulo – Osario –  Columbario- Lote – Mausoleo.
+                                    En el evento en que El Comprador cesara en el pago de las cuotas, La Organización quedará facultada
+                                    para dar por terminado el Contrato y El Comprador no tendrá derecho a la devolución de las cuotas
+                                    pagadas, las cuáles se retendrán en calidad de pago de perjuicios ocasionados por el incumplimiento.
+
+                                </p>
+                                <p>
+                                    <b>SEPTIMA. DERECHO DE USO DEL PARQUE CEMENTERIO.</b>  El  Comprador, para tener derecho a usar los productos de Parque Cementerio
+                                    adquiridos con EXEQUIALES LOS JAZMINES S.A.S, debe estar al día y  cancelado el 100% del valor total del producto en
+                                    LOTES – MAUSOLEOS -            OSARIOS – COLUMBARIOS. Parágrafo. El primer Servicio de Apertura caso de Lotes,
+                                    Mausoleos, Osarios en Jardín, Osarios y Cenizarios en Altura, es obsequiado por La Organización; NOTA: No se facturara
+                                    el valor de primera apertura de lotes y mausoleos siempre y cuando el servicio sea POR AFILIACION directa en
+                                    nuestra empresa EXEQUIALES LOS JAZMINES S.A.S; si es un servicio de terceros la apertura la debe asumir la entidad
+                                    prestadora del servicio exequial (La aurora – Los olivos – La ofrenda entre otras)
+                                    los servicios subsiguientes tendrán un costo que deberá sufragar El Comprador.
+                                </p>
+                                <p>
+                                    <b>OCTAVA. DERECHOS Y OBLIGACIONES DEL COMPRADOR.</b>  1. El  Comprador podrá vender, ceder, donar, etc., y
+                                    en general realizar cualquier acción de dominio de los derechos que tenga sobre los productos de
+                                    Parque Cementerio siempre y cuando notifique expresamente su intención por escrito y autenticada a
+                                    La Organización y cancele el valor correspondiente a los gastos de escrituración, y mantenimiento
+                                    que tenga lugar; Mientras este requisito no se haya cumplido, La Organización considerará como
+                                    dueño a quien aparezca inscrito. Nota: La lápida se dará sin costo para el comprador, esto aplica
+                                    solo para lotes por compra de contado. Si el lote es financiado a   12-24-36-37 meses no tendrá
+                                    derecho a Lápida y se otorga un mes para su instalación este o no ocupada la propiedad, valor que
+                                    se difiere en 4 cuotas. Los Osarios no tienen derecho a lápida y según su financiación se
+                                    estipulan unos plazos para ser instalada de la siguiente manera:
+                                    	Pago contado 1 mes
+                                    	Pago 12 meses 2 meses
+                                    	Pago 24 meses 3 meses
+                                    	Pago 36-37 meses 6 meses
+                                    Antes de aceptar una cesión, será preciso que el Producto cedido se encuentre a PAZ Y SALVO con La
+                                    Organización; de lo contrario, no será aceptada. 2. El Comprador se obliga a ajustarse al REGLAMENTO
+                                    INTERNO DEL PARQUE CEMENTERIO LOS JAZMINES protocolizado mediante Escritura Pública
+                                    Nº. 805 de Abril 18 de 2006, otorgada en la Notaría Única de Santa Rosa de Cabal, so pena de
+                                    restringírsele el derecho de uso del Lote o Mausoleo de su propiedad. Dicha obligación se
+                                    extiende a todos los propietarios sin importar quién haya adquirido el derecho.
+                                    3. En el caso en que los Lotes y Mausoleos sean adquiridos con objeto comercial
+                                    (sin consentimiento de La Organización), sólo se podrá ocupar por más de una vez,
+                                    SÍ Y SÓLO SÍ se cumplen los requisitos establecidos por La Organización para tal fin. 4.
+                                    Es responsabilidad de El Comprador ó Arrendatario, mantener informada a La
+                                    Organización sobre sus correspondientes direcciones y notificar oportunamente las
+                                    modificaciones de las mismas.
+                                </p>
+                                <p>
+                                    <b>NOVENA. NOTIFICACIONES.</b>  Para todos los efectos legales, serán válidas las notificaciones que se envíen a la
+                                    última dirección registrada,
+                                    según las constancias que aparezcan en los archivos de La Organización.
+                                </p>
+                                <p>
+                                    <b>DECIMA. DERECHOS Y OBLIGACIONES DE LA ORGANIZACIÓN.</b> 1. La Organización se reserva el derecho de fijar el precio, el plazo,
+                                    los intereses sobre el plazo y los intereses de mora, los cuales son aceptados por el comprador.  En todo caso,
+                                    los mismos se basarán en la lista de precios vigentes al momento de la negociación.
+                                </p>
+                                <p>
+                                    <b>UN DECIMA. REPOSICIÓN.</b>  En caso de extravío o pérdida del Título y/o cambio de titular por la causa que sea, el Beneficiario
+                                    deberá solicitar a La Organización  la  reposición  del  mismo cancelando el valor correspondiente,  aportando
+                                    el  respectivo  denuncio por pérdida o  hurto y en este caso se procederá a generar un nuevo Título que reemplazará al anterior.</p>
+                                  <p>  NOTA: Toda negociación diferente a las establecidas o estipuladas  por  escrito  en  el  presente  contrato carece de validez</p>
+
+                                  <div class="container">
+                                       <div class="col-md-6 col-xs-6">
+                                            <p>
+                                                 __________________
+                                                  Representante Legal
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6 col-xs-6">
+                                            <p>
+                                                 __________________
+                                                  Afiliado
+                                            </p>
+                                        </div>
+                                  </div>
+
 							</div>
 				<!-- //services -->
 				
@@ -579,16 +902,16 @@ CLÁUSULA PRIMERA. OBJETO. Por medio del presente Contrato de prestación de Ser
 				<div class="col-md-3 footer-grid">
 				   <h4>Instagram</h4>
 					<div class="footer-grid-instagram">
-					<a href="#"><img src="{% static 'images/f1.jpg' %}" alt=" " class="img-responsive"></a>
+					<a href="#"><img src="{% static 'images/cementerio5.jpg' %}" alt=" " class="img-responsive"></a>
 					</div>
 					<div class="footer-grid-instagram">
-					<a href="#"><img src="{% static 'images/f2.jpg' %}" alt=" " class="img-responsive"></a>
+					<a href="#"><img src="{% static 'images/cementerio5.jpg' %}" alt=" " class="img-responsive"></a>
 					</div>
 					<div class="footer-grid-instagram">
-						<a href="#"><img src="{% static 'images/f3.jpg' %}" alt=" " class="img-responsive"></a>
+					<a href="#"><img src="{% static 'images/cementerio5.jpg' %}" alt=" " class="img-responsive"></a>
 					</div>
 					<div class="footer-grid-instagram">
-					<a href="#"><img src="{% static 'images/f4.jpg' %}" alt=" " class="img-responsive"></a>
+					<a href="#"><img src="{% static 'images/cementerio5.jpg' %}" alt=" " class="img-responsive"></a>
 					</div>
 					<div class="clearfix"> </div>
 				</div>

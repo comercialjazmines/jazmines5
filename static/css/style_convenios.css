@@ -8,10 +8,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 html, body{
     font-size: 100%;
 font-family: 'Open Sans', sans-serif;
-	background:#eeefe8;
+	background:#FFFFFF;
 	margin:auto;
 }
-
 
 .list_item{
     font-size: 12px !important;
@@ -825,7 +824,6 @@ h4.side-t-w3l-agile {
     width: 24%;
     margin-left: 1%;
     box-shadow: 0 0 18px rgba(0,0,0,0.18);
-    border: 1px solid #C2C2C2;
 }
 .w3v_agileits_services_grid {
     text-align: center;
@@ -1843,14 +1841,12 @@ figure.effect-apollo figcaption::before {
 
 figure.effect-apollo p {
 	position: absolute;
-    color: #FFFFFF;
-    font-weight: bold;
 	right: 0;
 	bottom: 0;
 	margin: 3em;
 	padding: 0 1em;
 	max-width: 150px;
-	border-right: 5px solid #009900;
+	border-right: 5px solid #ff401b;
 	text-align: right;
 	opacity: 0;
 	-webkit-transition: opacity 0.35s;

@@ -8,7 +8,7 @@ def about(request):
     return render(request, 'about.html')
 
 def gallery(request):
-    return render(request, 'gallery.html.')
+    return render(request, 'gallery.html')
 
 def convenios(request):
     return render(request, 'convenios.html')
@@ -30,3 +30,6 @@ def obituarios(request):
 
 def terminos(request):
     return render(request, 'terminos.html')
+
+def alianzas(request):
+    return render(request, 'alianzas.html')

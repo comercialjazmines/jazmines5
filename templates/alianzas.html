@@ -4,26 +4,27 @@ author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 -->
+{% load static %}
 <!DOCTYPE html>
 <html>
 <head>
-<title>alianzas</title>
+<title>ALIANZAS</title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="shortcut icon"  href="images/favicon.ico">
+<link rel="shortcut icon"  href="{% static 'images/favicon.ico' %}">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Resort Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+<meta name="keywords" content="Resort Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- //for-mobile-apps -->
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" property="" />
+<link href="{% static 'css/bootstrap.css' %}" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="{% static 'css/flexslider.css' %}" type="text/css" media="screen" property="" />
 
-<link rel="stylesheet" type="text/css" href="css/zoomslider.css" />
-<link rel="stylesheet" type="text/css" href="css/style.css" />
-<link href="css/font-awesome.css" rel="stylesheet"> 
-<script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script>
+<link rel="stylesheet" type="text/css" href="{% static 'css/zoomslider.css' %}" />
+<link rel="stylesheet" type="text/css" href="{% static 'css/style_convenios.css' %}" />
+<link href="{% static 'css/font-awesome.css' %}" rel="stylesheet">
+<script type="text/javascript" src="{% static 'js/modernizr-2.6.2.min.js' %}"></script>
 <!--/web-fonts-->
 <link href="//fonts.googleapis.com/css?family=Dosis:200,300,400,500,600" rel="stylesheet">
 <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
@@ -38,7 +39,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
 					<a class="pinterest" href="#"><i class="fa fa-pinterest-p"></i></a>
 					<a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a>
-					
+
 				</div>
 				<div class="agileits-contact-info text-right">
 					<ul>
@@ -53,7 +54,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div id="demo-1" class="banner-inner">
 		<!--/header-w3l-->
 			   <div class="header-w3-agileits" id="home">
-			     <div class="inner-header-agile">	
+			     <div class="inner-header-agile">
 								<nav class="navbar navbar-default">
 									<div class="navbar-header">
 										<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -62,35 +63,36 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											<span class="icon-bar"></span>
 											<span class="icon-bar"></span>
 										</button>
-										<h1><a  href="index.html"><img src="images/jazmines.jpg" style="width: 150px; height: auto;"></a>
-										 
+										<h1><a  href="index.html"><img src="{% static 'images/jazmines.jpg' %}" style="width: 150px; height: auto;"></a>
 										</h1>
 									</div>
 									<!-- navbar-header -->
 									<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-										
-				           <ul class="nav navbar-nav">
-											<li class="active"><a class="list_item" href="index.html">Inicio</a></li>
-												<li><a  class="list_item" href="about.html">Quienes Somos</a></li>
-												<li><a class="list_item" href="planes.html">Planes</a></li>
-												<li><a  class="list_item"href="gallery.html">Parque Cementerio</a></li>
-												
+
+				         <ul class="nav navbar-nav">
+											    <li class="active"><a class="list_item" href="{% url 'index' %}">Inicio</a></li>
+												<li><a  class="list_item" href="{% url 'about' %}">Quienes Somos</a></li>
+												<li><a class="list_item" href="{% url 'planes' %}">Planes</a></li>
+												<li><a  class="list_item"href="{% url 'gallery' %}">Parque Cementerio</a></li>
+
 												 <li class="dropdown">
-													<a class="list_item" href="codes.html" class="dropdown-toggle hvr-bounce-to-bottom" data-hover="Pages" data-toggle="dropdown" aria-expanded="false">Mas Beneficios <b class="caret"></b></a>
+													<a class="list_item" href="#" class="dropdown-toggle " >Mas-Beneficios<b class="caret"></b></a>
 													 <ul class="dropdown-menu">
-														<li><a href="alianzas.html">Alianzas</a></li>
-													
-														<li><a href="convenios.html">Convenios</a></li>
+														<li><a href="{% url 'alianzas' %}">Convenios</a></li>
+
+														<li><a href="{% url 'convenios' %}">Convenios</a></li>
 													</ul>
 												</li>
 
-												<li><a class="list_item" href="contact.html">Contacto</a></li>
+												<li><a class="list_item" href="{% url 'contacto' %}">Contacto</a></li>
+												<li><a class="list_item" href="{% url 'login' %}">Iniciar-Sesion</a></li>
 
-											
+
 										</ul>
 
+
 									</div>
-									<div class="clearfix"> </div>	
+									<div class="clearfix"> </div>
 								</nav><!--
 									<div class="w3ls_search">
 													<div class="cd-main-header">
@@ -104,10 +106,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 														</form>
 													</div>
 												</div>-->
-					
-							</div> 
 
-			
+							</div>
+
+
 		<!--//header-w3l-->
 		</div>
 		 </div>
@@ -115,9 +117,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
  <!--//main-header-->
     <!-- breadcrumb -->
 	<div class="w3_breadcrumb">
-	<div class="breadcrumb-inner">	
+	<div class="breadcrumb-inner">
 			<ul>
-				<li><a href="index.html"></a> <i></i></li>
+				<li><a href="{% url 'index' %}"></a> <i></i></li>
 				<li></li>
 			</ul>
 		</div>
@@ -129,7 +131,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					      <div class="inner-agile-w3l-part-head">
 					            <h2 class="w3l-inner-h-title">ALIANZAS</h2>
 							</div>
-							
+
 				   <br>
 				   <br>
 								<!-- services -->
@@ -137,130 +139,213 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<div class="col-md-3 w3_agileits_services_grid hvr-overline-from-center">
 									<div class="w3_agileits_services_grid_agile">
 										<div class="w3_agileits_services_grid_1">
-											<img src="images/5.jpg" alt="service-img">
+										<!--	<img src="images/5.jpg" alt="service-img">-->
 										</div>
-										<h3></h3>
-										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+										<h3>LASAN </h3>
+										<p>SANTA ROSA DE CABAL</p>
 									</div>
 								</div>
 								<div class="col-md-3 w3_agileits_services_grid hvr-overline-from-center">
 									<div class="w3_agileits_services_grid_agile">
 										<div class="w3_agileits_services_grid_1">
-											<img src="images/6.jpg" alt="service-img">
+											<!--	<img src="images/5.jpg" alt="service-img">-->
 										</div>
-										<h3></h3>
-										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+										<h3>UNIREMINGTON</h3>
+										<p>PEREIRA</p>
+									</div>
+								</div>
+                                <div class="col-md-3 w3_agileits_services_grid hvr-overline-from-center">
+									<div class="w3_agileits_services_grid_agile">
+										<div class="w3_agileits_services_grid_1">
+											<!--	<img src="images/5.jpg" alt="service-img">-->
+										</div>
+										<h3>UNISARC</h3>
+										<p>SANTA ROSA DE CABAL</p>
 									</div>
 								</div>
 								<div class="col-md-3 w3_agileits_services_grid hvr-overline-from-center">
 									<div class="w3_agileits_services_grid_agile">
 										<div class="w3_agileits_services_grid_1">
-											<img src="images/7.jpg" alt="service-img">
+											<!--	<img src="images/5.jpg" alt="service-img">-->
 										</div>
-										<h3></h3>
-										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+										<h3>GLOW CENTRO DE BELLEZA</h3>
+										<p>SANTA ROSA DE CABAL</p>
 									</div>
 								</div>
-								<div class="col-md-3 w3_agileits_services_grid hvr-overline-from-center">
-									<div class="w3_agileits_services_grid_agile">
-										<div class="w3_agileits_services_grid_1">
-											<img src="images/8.jpg" alt="service-img">
-										</div>
-										<h3></h3>
-										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-									</div>
-								</div>
+
 								<div class="clearfix"> </div>
 							</div>
 							<div class="w3_agileits_services_grids">
 								<div class="col-md-3 w3_agileits_services_grid hvr-overline-from-center">
 									<div class="w3_agileits_services_grid_agile">
 										<div class="w3_agileits_services_grid_1">
-											<img src="images/5.jpg" alt="service-img">
+											<!--	<img src="images/5.jpg" alt="service-img">-->
 										</div>
-										<h3></h3>
-										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+										<h3>CLINICA VETERINARIA</h3>
+										<p>SANTA ROSA DE CABAL</p>
 									</div>
 								</div>
 								<div class="col-md-3 w3_agileits_services_grid hvr-overline-from-center">
 									<div class="w3_agileits_services_grid_agile">
 										<div class="w3_agileits_services_grid_1">
-											<img src="images/6.jpg" alt="service-img">
+											<!--	<img src="images/5.jpg" alt="service-img">-->
 										</div>
-										<h3></h3>
-										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+										<h3>GYM</h3>
+										<p>SANTA ROSA DE CABAL</p>
 									</div>
 								</div>
 								<div class="col-md-3 w3_agileits_services_grid hvr-overline-from-center">
 									<div class="w3_agileits_services_grid_agile">
 										<div class="w3_agileits_services_grid_1">
-											<img src="images/7.jpg" alt="service-img">
+											<!--	<img src="images/5.jpg" alt="service-img">-->
 										</div>
-										<h3></h3>
-										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+										<h3>ORNAPEZ TIENDA VETERINARIA</h3>
+										<p>SANTA ROSA DE CABAL</p>
 									</div>
 								</div>
 								<div class="col-md-3 w3_agileits_services_grid hvr-overline-from-center">
 									<div class="w3_agileits_services_grid_agile">
 										<div class="w3_agileits_services_grid_1">
-											<img src="images/8.jpg" alt="service-img">
+											<!--	<img src="images/5.jpg" alt="service-img">-->
 										</div>
-										<h3></h3>
-										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+										<h3>ORTOMAX COLCHONES</h3>
+										<p>SANTA ROSA DE CABAL</p>
 									</div>
 								</div>
+
+								<div class="clearfix"> </div>
+							</div>
+                        <div class="w3_agileits_services_grids">
+								<div class="col-md-3 w3_agileits_services_grid hvr-overline-from-center">
+									<div class="w3_agileits_services_grid_agile">
+										<div class="w3_agileits_services_grid_1">
+											<!--	<img src="images/5.jpg" alt="service-img">-->
+										</div>
+										<h3>YAMAHA</h3>
+										<p>SANTA ROSA DE CABAL</p>
+									</div>
+								</div>
+								<div class="col-md-3 w3_agileits_services_grid hvr-overline-from-center">
+									<div class="w3_agileits_services_grid_agile">
+										<div class="w3_agileits_services_grid_1">
+											<!--	<img src="images/5.jpg" alt="service-img">-->
+										</div>
+										<h3>PAPELERIA ARAUCARIAS</h3>
+										<p>SANTA ROSA DE CABAL</p>
+									</div>
+								</div>
+								<div class="col-md-3 w3_agileits_services_grid hvr-overline-from-center">
+									<div class="w3_agileits_services_grid_agile">
+										<div class="w3_agileits_services_grid_1">
+											<!--	<img src="images/5.jpg" alt="service-img">-->
+										</div>
+										<h3>DROGERIA AMIGA</h3>
+										<p>SANTA ROSA DE CABAL</p>
+									</div>
+								</div>
+								<div class="col-md-3 w3_agileits_services_grid hvr-overline-from-center">
+									<div class="w3_agileits_services_grid_agile">
+										<div class="w3_agileits_services_grid_1">
+											<!--	<img src="images/5.jpg" alt="service-img">-->
+										</div>
+										<h3>TERMALES DE SAN VICENTE</h3>
+										<p>SANTA ROSA DE CABAL</p>
+									</div>
+								</div>
+
+								<div class="clearfix"> </div>
+							</div>
+                        <div class="w3_agileits_services_grids">
+								<div class="col-md-3 w3_agileits_services_grid hvr-overline-from-center">
+									<div class="w3_agileits_services_grid_agile">
+										<div class="w3_agileits_services_grid_1">
+											<!--	<img src="images/5.jpg" alt="service-img">-->
+										</div>
+										<h3>ARTELARES</h3>
+										<p>SANTA ROSA DE CABAL</p>
+									</div>
+								</div>
+								<div class="col-md-3 w3_agileits_services_grid hvr-overline-from-center">
+									<div class="w3_agileits_services_grid_agile">
+										<div class="w3_agileits_services_grid_1">
+											<!--	<img src="images/5.jpg" alt="service-img">-->
+										</div>
+										<h3>ALMACEN TENTACION</h3>
+										<p>SANTA ROSA DE CABAL</p>
+									</div>
+								</div>
+								<div class="col-md-3 w3_agileits_services_grid hvr-overline-from-center">
+									<div class="w3_agileits_services_grid_agile">
+										<div class="w3_agileits_services_grid_1">
+											<!--	<img src="images/5.jpg" alt="service-img">-->
+										</div>
+										<h3>ALMACEN EL MEJOR</h3>
+										<p>SANTA ROSA DE CABAL</p>
+									</div>
+								</div>
+								<div class="col-md-3 w3_agileits_services_grid hvr-overline-from-center">
+									<div class="w3_agileits_services_grid_agile">
+										<div class="w3_agileits_services_grid_1">
+											<!--	<img src="images/5.jpg" alt="service-img">-->
+										</div>
+										<h3>ALMACEN ZENZACION</h3>
+										<p>SANTA ROSA DE CABAL</p>
+									</div>
+								</div>
+
 								<div class="clearfix"> </div>
 							</div>
 				<!-- //services -->
-				
-				         <!-  <div class="agileinf-button">    <a class="read" href="single.html">
-											
+
+				         <!--  <div class="agileinf-button">    <a class="read" href="single.html">
+
 							   </a>
 							   </div>
 
-					</div>
+					</div>-->
+                    </div>
+                </div>
 
-		 	<div class="featured-facility">
 	  <!-- welcome --
-		
+
 			<div class="spa-agile">
 			<h3 class="tittle fea">Featured  Services</h3>
 				<div class="col-md-3 spa-grid">
-					
+
 						<i class="fa fa-cutlery" aria-hidden="true"></i>
-					
+
 						<h4>Restaurant </h4>
-					
+
 				</div>
 				<div class="col-md-3 spa-grid">
-					
+
 					<i class="fa fa-glass" aria-hidden="true"></i>
-					
-					
+
+
 						<h4>Bar</h4>
-						
-				
+
+
 				</div>
 				<div class="col-md-3 spa-grid lost">
-					
+
 						<i class="fa fa-wheelchair-alt" aria-hidden="true"></i>
-					
+
 						<h4>Gym</h4>
-						
-					
+
+
 				</div>
 				<div class="col-md-3 spa-grid lost">
-					
+
 					<i class="fa fa-car" aria-hidden="true"></i>
-					
-					
+
+
 						<h4>Pick Up</h4>
-						
-				
+
+
 				</div>
 				<div class="clearfix"> </div>
 			</div>
-		
+
 	<!-- //welcome --
 	</div>
 </div>
@@ -275,15 +360,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<ul class="top-links">
 									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									
+
 									<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
 								</ul>
-						
+
 						</div>
 					</div>
 					<div class="team-agile">
 						<h4>Sophia</h4>
-						
+
 					</div>
 				</div>
 				<div class="col-md-3 team-grids">
@@ -293,15 +378,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<ul class="top-links">
 									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									
+
 									<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
 								</ul>
-						
+
 						</div>
 					</div>
 					<div class="team-agile">
 						<h4>Michael</h4>
-						
+
 					</div>
 				</div>
 				<div class="col-md-3 team-grids">
@@ -311,15 +396,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<ul class="top-links">
 									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									
+
 									<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
 								</ul>
-						
+
 						</div>
 					</div>
 					<div class="team-agile">
 						<h4>Jessica</h4>
-						
+
 					</div>
 				</div>
 				<div class="col-md-3 team-grids">
@@ -329,21 +414,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<ul class="top-links">
 									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									
+
 									<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
 								</ul>
-						
+
 						</div>
 					</div>
 					<div class="team-agile">
 						<h4>Edwards</h4>
-						
+
 					</div>
 				</div>
 				<div class="clearfix"> </div>
-			</div> 
-		</div>	
-</div>			
+			</div>
+		</div>
+</div>
 	<!-- /plans --
       <div class="plans-section">
 				 <div class="container">
@@ -358,18 +443,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 						<div class="price-gd-bottom">
 							   <div class="price-list">
-								
+
 									<ul>
 											<li><i class="fa fa-star" aria-hidden="true"></i></li>
 											<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
 											<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
 											<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
 											<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-									
+
 								     </ul>
 									 <h6 class="bed"><i class="fa fa-bed" aria-hidden="true"></i></h6>
 							</div>
-							<div class="price-selet pric-sclr1">		    			   
+							<div class="price-selet pric-sclr1">
 								<a href="#" data-toggle="modal" data-target="#myModal1" >Book Now</a>
 							</div>
 						</div>
@@ -384,17 +469,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 						<div class="price-gd-bottom">
 							<div class="price-list">
-								
+
 									<ul>
 									<li><i class="fa fa-star" aria-hidden="true"></i></li>
 									<li><i class="fa fa-star" aria-hidden="true"></i></li>
 									<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
 									<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
 									<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-									
+
 								</ul>
 								<h6 class="bed two"><i class="fa fa-bed" aria-hidden="true"></i></h6>
-								
+
 							</div>
 							<div class="price-selet pric-sclr2">
 								<a href="#" data-toggle="modal" data-target="#myModal1" >Book Now</a>
@@ -418,7 +503,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<li><i class="fa fa-star" aria-hidden="true"></i></li>
 									<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
 									<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-									
+
 								</ul>
 								<h6 class="bed three"><i class="fa fa-bed" aria-hidden="true"></i></h6>
 							</div>
@@ -443,7 +528,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<li><i class="fa fa-star" aria-hidden="true"></i></li>
 									<li><i class="fa fa-star" aria-hidden="true"></i></li>
 									<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
-									
+
 								</ul>
 								<h6 class="bed four"><i class="fa fa-bed" aria-hidden="true"></i></h6>
 							</div>
@@ -479,7 +564,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 													  <div class="col-md-6 form-date-w3-agileits">
 																<label><i class="fa fa-calendar" aria-hidden="true"></i> Arrival Date :</label>
 																<input  id="datepicker" name="Text" type="text" value="mm/dd/yyyy" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'mm/dd/yyyy';}" required="">
-															
+
 															</div>
 												<div class="col-md-6 form-time-w3layouts second-agile">
 														<label><i class="fa fa-clock-o" aria-hidden="true"></i> Time :</label>
@@ -488,7 +573,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 												<div class="col-md-6 form-date-w3-agileits">
 															<label><i class="fa fa-calendar" aria-hidden="true"></i> Departure Date :</label>
 																<input  id="datepicker1" name="Text" type="text" value="mm/dd/yyyy" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'mm/dd/yyyy';}" required="">
-																
+
 															</div>
 													<div class="col-md-6 form-time-w3layouts1 second-agile1">
 															<label><i class="fa fa-clock-o" aria-hidden="true"></i> Time :</label>
@@ -529,7 +614,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 						</div>
 						<!-- //Modal1 -->
-			
+
 			<!--//content-inner-section-->
 
  <!-- Footer -->
@@ -539,12 +624,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="col-md-2 footer-info-grid links">
 					<h4>links Rapidos</h4>
 					<ul>
-						       <li><a href="index.html">Inicio</a></li> 
-								<li><a href="about.html">Acerca de Nosotros</a></li> 
-								<li><a href="planes.html">Planes</a></li> 
-								<li><a href="gallery.html">Parque Cementerio</a></li>
-								<li><a href="contact.html">Contacto</a></li> 
-								<li><a href="terminos.html">Terminos y Condiciones</a></li> 
+						       <li><a href="{% url 'index' %}">Inicio</a></li>
+								<li><a href="{% url 'about' %}">Acerca de Nosotros</a></li>
+								<li><a href="{% url 'planes' %}">Planes</a></li>
+								<li><a href="{% url 'gallery' %}">Parque Cementerio</a></li>
+								<li><a href="{% url 'contacto' %}">Contacto</a></li>
+								<li><a href="{% url 'terminos' %}">Terminos y Condiciones</a></li>
 					</ul>
 				</div>
 				<div class="col-md-3 footer-info-grid address">
@@ -562,16 +647,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="col-md-3 footer-grid">
 				   <h4>Instagram</h4>
 					<div class="footer-grid-instagram">
-					<a href="#"><img src="images/f1.jpg" alt=" " class="img-responsive"></a>
+					<a href="#"><img src="{% static 'images/cementerio5.jpg' %}" alt=" " class="img-responsive"></a>
 					</div>
 					<div class="footer-grid-instagram">
-					<a href="#"><img src="images/f2.jpg" alt=" " class="img-responsive"></a>
+					<a href="#"><img src="{% static 'images/cementerio5.jpg' %}" alt=" " class="img-responsive"></a>
 					</div>
 					<div class="footer-grid-instagram">
-						<a href="#"><img src="images/f3.jpg" alt=" " class="img-responsive"></a>
+					<a href="#"><img src="{% static 'images/cementerio5.jpg' %}" alt=" " class="img-responsive"></a>
 					</div>
 					<div class="footer-grid-instagram">
-					<a href="#"><img src="images/f4.jpg" alt=" " class="img-responsive"></a>
+					<a href="#"><img src="{% static 'images/cementerio5.jpg' %}" alt=" " class="img-responsive"></a>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -581,18 +666,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<section class="social">
                         <ul>
 							<li><a class="icon fb" href="https://www.facebook.com/exequialeslosjazminess.a.s/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-							
-							
-							
-					
+
+
+
+
 							<li><a class="icon gp" href="https://plus.google.com/u/0/117740488235666769095" target="_blank"><i class="fa fa-google-plus"></i></a></li>
 						</ul>
 					</section>
 
 				</div>
-					
 
-					
+
+
 				</div>
 				<div class="clearfix"></div>
 			</div>
@@ -609,23 +694,23 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	   </div>
      </div>
 
-		
+
 			<div class="w3agile_footer_copy">
 				    <p>Exequiales los Jazmines©2017 Reservados todos los derechos- Santa Rosa de Cabal-Risaralda-Colombia <a href="http://w3layouts.com/"></a></p>
 			</div>
 		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="{% static 'js/jquery-2.1.4.min.js' %}"></script>
 	<!-- Dropdown-Menu-JavaScript -->
 			<script>
 				$(document).ready(function(){
-					$(".dropdown").hover(            
+					$(".dropdown").hover(
 						function() {
 							$('.dropdown-menu', this).stop( true, true ).slideDown("fast");
-							$(this).toggleClass('open');        
+							$(this).toggleClass('open');
 						},
 						function() {
 							$('.dropdown-menu', this).stop( true, true ).slideUp("fast");
-							$(this).toggleClass('open');       
+							$(this).toggleClass('open');
 						}
 					);
 				});
@@ -633,13 +718,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<!-- //Dropdown-Menu-JavaScript -->
 
 
-<script type="text/javascript" src="js/jquery.zoomslider.min.js"></script>
+<script type="text/javascript" src="{% static 'js/jquery.zoomslider.min.js' %}"></script>
 		<!-- search-jQuery -->
-				<script src="js/main.js"></script>
+				<script src="{% static 'js/main.js' %}"></script>
 
 <!--/script-->
 			<!-- flexSlider -->
-					<script defer src="js/jquery.flexslider.js"></script>
+					<script defer src="{% static 'js/jquery.flexslider.js' %}"></script>
 					<script type="text/javascript">
 					$(window).load(function(){
 					  $('.flexslider').flexslider({
@@ -651,20 +736,20 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					});
 				  </script>
 	<!-- Calendar -->
-				<link rel="stylesheet" href="css/jquery-ui.css" />
-				<script src="js/jquery-ui.js"></script>
+				<link rel="stylesheet" href="{% static 'css/jquery-ui.css' %}" />
+				<script src="{% static 'js/jquery-ui.js' %}"></script>
 				  <script>
 						  $(function() {
 							$( "#datepicker,#datepicker1,#datepicker2,#datepicker3" ).datepicker();
 						  });
 				  </script>
 			<!-- //Calendar -->
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript" src="{% static 'js/move-top.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/easing.js' %}"></script>
 
 <script type="text/javascript">
 			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){		
+				$(".scroll").click(function(event){
 					event.preventDefault();
 					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
 				});
@@ -677,17 +762,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					  			containerID: 'toTop', // fading element id
 								containerHoverID: 'toTopHover', // fading element hover id
 								scrollSpeed: 1200,
-								easingType: 'linear' 
+								easingType: 'linear'
 					 		};
 							*/
-							
+
 							$().UItoTop({ easingType: 'easeOutQuart' });
-							
+
 						});
 					</script>
 <!--end-smooth-scrolling-->
 <!--js for bootstrap working-->
-	<script src="js/bootstrap.js"></script>
+	<script src="{% static 'js/bootstrap.js' %}"></script>
 <!-- //for bootstrap working -->
 </body>
 </html>
