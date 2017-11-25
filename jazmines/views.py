@@ -33,3 +33,15 @@ def terminos(request):
 
 def alianzas(request):
     return render(request, 'alianzas.html')
+
+def sesion_obituarios(request):
+    return render(request, 'sesion_obituarios.html')
+
+def modificar_obituarios(request):
+    return render(request, 'modificar_obituarios.html')
+
+def agregar_obituarios(request):
+    return render(request, 'agregar_obituarios.html')
+
+def historico_obituarios(request):
+    return render(request, 'historico_obituarios.html')

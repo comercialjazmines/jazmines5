@@ -26,6 +26,11 @@ from jazmines.views import construccion
 from jazmines.views import terminos
 from jazmines.views import obituarios
 from jazmines.views import alianzas
+from jazmines.views import modificar_obituarios
+from jazmines.views import agregar_obituarios
+from jazmines.views import historico_obituarios
+from jazmines.views import sesion_obituarios
+
 
 
 urlpatterns = [
@@ -46,6 +51,10 @@ urlpatterns = [
     url(r'^convenios-en construccion/$', convenios, name="convenios"),
     url(r'^terminos-en construccion/$', terminos, name="terminos"),
     url(r'^alianzas en construccion/$', alianzas, name="alianzas"),
+url(r'^sesion_obituarios-en construccion/$', sesion_obituarios, name="sesion_obituarios"),
+    url(r'^agregar_obituarios-en construccion/$', agregar_obituarios, name="agregar_obituarios"),
+    url(r'^modificar_obituarios-en construccion/$', modificar_obituarios, name="modificar_obituarios"),
+    url(r'^historico_obituarios en construccion/$', historico_obituarios, name="historico_obituarios"),
 
 
 ]
