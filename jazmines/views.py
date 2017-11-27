@@ -45,3 +45,18 @@ def agregar_obituarios(request):
 
 def historico_obituarios(request):
     return render(request, 'historico_obituarios.html')
+
+def actualizar_noticias(request):
+    return render(request, 'actualizar_noticias.html')
+
+def agregar_eventos(request):
+    return render(request, 'agregar_eventos.html')
+
+def historico_eventos(request):
+    return render(request, 'historico_eventos.html')
+
+def modificar_eventos(request):
+    return render(request, 'modificar_eventos.html')
+
+def sesion_eventos(request):
+    return render(request, 'sesion_eventos.html')

@@ -138,7 +138,7 @@
     background: #f1f1f1;
   }
   .theme-default #main-navbar .widget-notifications a {
-    color: !important;
+    color:transparent !important;
   }
   .theme-default #main-navbar .widget-notifications .notification,
   .theme-default #main-navbar .widget-notifications .notifications-link {
@@ -158,7 +158,7 @@
     background: #f1f1f1;
   }
   .theme-default #main-navbar .widget-messages-alt a {
-    color: !important;
+    color:transparent !important;
   }
   .theme-default #main-navbar .widget-messages-alt .message,
   .theme-default #main-navbar .widget-messages-alt .messages-link {
@@ -3798,7 +3798,7 @@
     color: #fff;
   }
   .theme-dust #main-navbar .widget-notifications a {
-    color: !important;
+    color:transparent !important;
   }
   .theme-dust #main-navbar .widget-notifications .notification,
   .theme-dust #main-navbar .widget-notifications .notifications-link {
@@ -3818,7 +3818,7 @@
     background: #f1f1f1;
   }
   .theme-dust #main-navbar .widget-messages-alt a {
-    color: !important;
+    color: transparent!important;
   }
   .theme-dust #main-navbar .widget-messages-alt .message,
   .theme-dust #main-navbar .widget-messages-alt .messages-link {
@@ -4685,7 +4685,7 @@
     color: #fff;
   }
   .theme-frost #main-navbar .widget-notifications a {
-    color: !important;
+    color:transparent !important;
   }
   .theme-frost #main-navbar .widget-notifications .notification,
   .theme-frost #main-navbar .widget-notifications .notifications-link {
@@ -4705,7 +4705,7 @@
     background: #f1f1f1;
   }
   .theme-frost #main-navbar .widget-messages-alt a {
-    color: !important;
+    color:transparent !important;
   }
   .theme-frost #main-navbar .widget-messages-alt .message,
   .theme-frost #main-navbar .widget-messages-alt .messages-link {

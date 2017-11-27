@@ -2992,15 +2992,23 @@ a.icon.gp {
 		padding-top: 5em;
 	}
 }
+
 @media (max-width:1024px){
 	
 	.navbar-nav > li {
 		margin: 0 0.3em;
 	}
+     ul.nav.navbar-nav{
+        margin-top: 1%;
+        margin-left: 10em;
+    }
 	.price-gd-top h5 {
 		font-size: 0.9em;
 		padding: 0.2em 3em 0.8em 0em;
 	}
+    .list_item{
+        font-size: 10px ;
+    }
 	.price-gd-top h3 span {
 		font-size: 20px;
 		vertical-align: top;
@@ -4627,15 +4635,7 @@ table {
     border: 1px solid;
 
 }
-@media only screen and(max-width: 1024px){
-    .list_item{
-        font-size: 10px ;
-    }
-    ul.nav.navbar-nav{
-        margin-top: 1%;
-        margin-left: 10em;
-    }
-}
+
 
 /*-- //responsive --*/
 @media only screen and(max-width: 704px){

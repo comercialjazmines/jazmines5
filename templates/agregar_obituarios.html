@@ -384,7 +384,7 @@ Use search to find needed section.
 							<a tabindex="-1" href="{% url 'agregar_obituarios' %}"><i class="menu-icon fa fa-th-list"></i><span class="mm-text">Agregar</span><span class="label label-warning"></span></a>
 						</li>
 						<li>
-							<a tabindex="-1" href="{% static 'historico_obituarios' %}"><i class="menu-icon fa fa-th-list"></i><span class="mm-text">Historico</span><span class="label label-warning"></span></a>
+							<a tabindex="-1" href="{% url 'historico_obituarios' %}"><i class="menu-icon fa fa-th-list"></i><span class="mm-text">Historico</span><span class="label label-warning"></span></a>
 						</li>
 					</ul>
 				</li>
@@ -392,7 +392,7 @@ Use search to find needed section.
 					<a href="#"><i class="menu-icon fa fa-check-square"></i><span class="mm-text">Noticias</span></a>
 					<ul>
 						<li>
-							<a tabindex="-1" href="#"><span class="mm-text">Actualizar</span></a>
+							<a tabindex="-1" href="{% url 'actualizar_noticias' %}"><span class="mm-text">Actualizar</span></a>
 						</li>
 
 					</ul>
@@ -402,13 +402,13 @@ Use search to find needed section.
 							<a href="#"><i class="menu-icon fa fa-envelope"></i><span class="mm-text">Eventos</span></a>
 							<ul>
 								<li>
-									<a tabindex="-1" href="#"><span class="mm-text">Gestionar</span></a>
+									<a tabindex="-1" href="{% url 'sesion_eventos' %}"><span class="mm-text">Gestionar</span></a>
 								</li>
 								<li>
-									<a tabindex="-1" href="#"><span class="mm-text">Agregar</span></a>
+									<a tabindex="-1" href="{% url 'agregar_eventos' %}"><span class="mm-text">Agregar</span></a>
 								</li>
 								<li>
-									<a tabindex="-1" href="#"><span class="mm-text">Historico</span></a>
+									<a tabindex="-1" href="{% url 'historico_eventos'%}"><span class="mm-text">Historico</span></a>
 								</li>
 							</ul>
 						</li>
@@ -478,7 +478,7 @@ Use search to find needed section.
 				</script>
 				<div class="panel">
 					<div class="panel-heading">
-						<span class="panel-title">VELACION</span>
+						<span class="panel-title">VELACION-AGREGAR</span>
 					</div>
 					<div class="panel-body">
 						
@@ -516,7 +516,7 @@ Use search to find needed section.
 
 				<div class="panel">
 					<div class="panel-heading">
-						<span class="panel-title">EXEQUIAS</span>
+						<span class="panel-title">EXEQUIAS-AGREGAR</span>
 					</div>
 					<div class="panel-body">
 						
@@ -551,7 +551,7 @@ Use search to find needed section.
 				</div>	
 				<div class="panel">
 					<div class="panel-heading">
-						<span class="panel-title">LUGAR DE DESCANSO</span>
+						<span class="panel-title">LUGAR DE DESCANSO-AGREGAR</span>
 					</div>
 					<div class="panel-body">
 						

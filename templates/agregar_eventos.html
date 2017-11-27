@@ -63,7 +63,7 @@ Use search to find needed section.
 <body class="theme-default main-menu-animated">
 
 <script>var init = [];</script>
-<!-- Demo script --> <script src="{% static 'assets/demo/demo.js' %}"></script> <!-- / Demo script -->
+<!-- Demo script -- <script src="{% static 'assets/demo/demo.js' %}"></script> <!-- / Demo script -->
 
 <div id="main-wrapper">
 
@@ -82,7 +82,7 @@ Use search to find needed section.
 
 				<!-- Logo -->
 				<a href="index.html" class="navbar-brand">
-					<div><img alt="Pixel Admin" src="{% static 'assets/images/pixel-admin/jazmines.jpg' %}" style="width: 20px; height: auto"></div>
+					<div><img alt="Pixel Admin" src="{% static 'assets/images/pixel-admin/jazmines.jpg' %}" style="width: 65px; height: auto"></div>
 
 				</a>
 
@@ -203,7 +203,7 @@ Use search to find needed section.
 
 										 <!-- / .message -->
 
-									<!-- / .messages-list -->
+									<!-- / .messages-list --
 									<a href="#" class="messages-link">MORE MESSAGES</a>
 								 <!-- / .dropdown-menu -->
 							</li>
@@ -328,7 +328,24 @@ Use search to find needed section.
 	<div id="content-wrapper">
 <!-- 5. $CONTENT ===================================================================================-->
 				
-			
+			 <script>
+					init.push(function () {
+						var options = {
+							todayBtn: "linked",
+							orientation: $('body').hasClass('right-to-left') ? "auto right" : 'auto auto'
+						}
+						$('#bs-datepicker-example').datepicker(options);
+
+						$('#bs-datepicker-component').datepicker();
+
+						var options2 = {
+							orientation: $('body').hasClass('right-to-left') ? "auto right" : 'auto auto'
+						}
+						$('#bs-datepicker-range').datepicker(options2);
+
+						$('#bs-datepicker-inline').datepicker();
+					});
+				</script>
 				<div class="panel">
 					<div class="panel-heading">
 						<span class="panel-title">AGREGAR EVENTO</span>
@@ -351,14 +368,14 @@ Use search to find needed section.
 							</div>
 
 							<div class="form-group">
-								<label for="jq-validation-password" class="col-sm-3 control-label">FECHA INICIO</label>
+								<label for="jq-validation-email" class="col-sm-3 control-label">FECHA INICIO</label>
 								<div class="col-sm-9">
 									<input type="text" class="form-control" id="jq-validation-email" name="jq-validation-email">
 								</div>
 							</div>
 
 							<div class="form-group">
-								<label for="jq-validation-password-confirmation" class="col-sm-3 control-label">FECHA FIN</label>
+								<label for="jq-validation-email" class="col-sm-3 control-label">FECHA FIN</label>
 								<div class="col-sm-9">
 									<input type="text" class="form-control" id="jq-validation-email" name="jq-validation-email">
 								</div>

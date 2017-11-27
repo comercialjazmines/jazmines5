@@ -2,18 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ce72b28-df06-49a3-8edb-fc183ad4ec18" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/premio2.jpg" afterPath="$PROJECT_DIR$/static/images/premio2.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exequiales/urls.py" afterPath="$PROJECT_DIR$/exequiales/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jazmines/views.py" afterPath="$PROJECT_DIR$/jazmines/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/style_convenios.css" afterPath="$PROJECT_DIR$/static/css/style_convenios.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/about.html" afterPath="$PROJECT_DIR$/templates/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/alianzas.html" afterPath="$PROJECT_DIR$/templates/alianzas.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/contact.html" afterPath="$PROJECT_DIR$/templates/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/convenios.html" afterPath="$PROJECT_DIR$/templates/convenios.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/gallery.html" afterPath="$PROJECT_DIR$/templates/gallery.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/planes.html" afterPath="$PROJECT_DIR$/templates/planes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/assets/stylesheets/themes.css" afterPath="$PROJECT_DIR$/static/assets/stylesheets/themes.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/style.css" afterPath="$PROJECT_DIR$/static/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/actualizar_noticias.html" afterPath="$PROJECT_DIR$/templates/actualizar_noticias.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/agregar_eventos.html" afterPath="$PROJECT_DIR$/templates/agregar_eventos.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/agregar_obituarios.html" afterPath="$PROJECT_DIR$/templates/agregar_obituarios.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/historico_eventos.html" afterPath="$PROJECT_DIR$/templates/historico_eventos.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/historico_obituarios.html" afterPath="$PROJECT_DIR$/templates/historico_obituarios.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/modificar_eventos.html" afterPath="$PROJECT_DIR$/templates/modificar_eventos.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/modificar_obituarios.html" afterPath="$PROJECT_DIR$/templates/modificar_obituarios.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/sesion_eventos.html" afterPath="$PROJECT_DIR$/templates/sesion_eventos.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/sesion_obituarios.html" afterPath="$PROJECT_DIR$/templates/sesion_obituarios.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,41 +42,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="390" column="75" lean-forward="false" selection-start-line="390" selection-start-column="75" selection-end-line="390" selection-end-column="75" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style_convenios.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/css/style_convenios.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17670">
-              <caret line="930" column="20" lean-forward="false" selection-start-line="930" selection-start-column="20" selection-end-line="930" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="planes.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/planes.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1558">
-              <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exequiales/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="703">
-              <caret line="53" column="90" lean-forward="false" selection-start-line="53" selection-start-column="90" selection-end-line="53" selection-end-column="90" />
+            <state relative-caret-position="387">
+              <caret line="64" column="1" lean-forward="true" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
               <folding>
                 <element signature="e#619#660#0" expanded="true" />
               </folding>
@@ -82,36 +54,54 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="agregar_obituarios.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/agregar_obituarios.html">
+      <file leaf-file-name="actualizar_noticias.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/actualizar_noticias.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="83" column="124" lean-forward="false" selection-start-line="83" selection-start-column="124" selection-end-line="83" selection-end-column="124" />
+            <state relative-caret-position="200">
+              <caret line="404" column="48" lean-forward="false" selection-start-line="404" selection-start-column="36" selection-end-line="404" selection-end-column="129" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="historico_eventos.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/historico_eventos.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="93">
+              <caret line="208" column="129" lean-forward="false" selection-start-line="208" selection-start-column="129" selection-end-line="208" selection-end-column="129" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="alianzas.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/alianzas.html">
+      <file leaf-file-name="modificar_eventos.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/modificar_eventos.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2527">
-              <caret line="133" column="83" lean-forward="false" selection-start-line="133" selection-start-column="83" selection-end-line="133" selection-end-column="83" />
-              <folding>
-                <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="-177">
+              <caret line="230" column="120" lean-forward="true" selection-start-line="230" selection-start-column="120" selection-end-line="230" selection-end-column="120" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="convenios.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/convenios.html">
+      <file leaf-file-name="sesion_eventos.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/sesion_eventos.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3914">
-              <caret line="206" column="106" lean-forward="false" selection-start-line="206" selection-start-column="106" selection-end-line="206" selection-end-column="106" />
-              <folding>
-                <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="1041">
+              <caret line="267" column="78" lean-forward="false" selection-start-line="267" selection-start-column="78" selection-end-line="267" selection-end-column="78" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="agregar_obituarios.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/agregar_obituarios.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1017">
+              <caret line="553" column="75" lean-forward="false" selection-start-line="553" selection-start-column="75" selection-end-line="553" selection-end-column="75" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -119,8 +109,8 @@
       <file leaf-file-name="sesion_obituarios.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/sesion_obituarios.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="84" column="124" lean-forward="false" selection-start-line="84" selection-start-column="124" selection-end-line="84" selection-end-column="124" />
+            <state relative-caret-position="189">
+              <caret line="405" column="129" lean-forward="false" selection-start-line="405" selection-start-column="129" selection-end-line="405" selection-end-column="129" />
               <folding />
             </state>
           </provider>
@@ -129,21 +119,29 @@
       <file leaf-file-name="modificar_obituarios.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/modificar_obituarios.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="84" column="124" lean-forward="false" selection-start-line="84" selection-start-column="124" selection-end-line="84" selection-end-column="124" />
+            <state relative-caret-position="279">
+              <caret line="555" column="77" lean-forward="false" selection-start-line="555" selection-start-column="77" selection-end-line="555" selection-end-column="77" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="historico_obituarios.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="historico_obituarios.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/historico_obituarios.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="86" column="20" lean-forward="true" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="2100">
+              <caret line="405" column="129" lean-forward="false" selection-start-line="405" selection-start-column="129" selection-end-line="405" selection-end-column="129" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="agregar_eventos.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/agregar_eventos.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="312" column="84" lean-forward="false" selection-start-line="312" selection-start-column="84" selection-end-line="312" selection-end-column="84" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -172,6 +170,9 @@
       <find />
       <find>table</find>
       <find>w3v_agileits_services_grid</find>
+      <find>btn btn-xs</find>
+      <find>btn</find>
+      <find>btn-primary</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -187,22 +188,27 @@
         <option value="$PROJECT_DIR$/templates/login.html" />
         <option value="$PROJECT_DIR$/templates/obituarios.html" />
         <option value="$PROJECT_DIR$/templates/terminos.html" />
-        <option value="$PROJECT_DIR$/static/css/style.css" />
-        <option value="$PROJECT_DIR$/templates/agregar_eventos.html" />
         <option value="$PROJECT_DIR$/templates/about.html" />
         <option value="$PROJECT_DIR$/templates/gallery.html" />
         <option value="$PROJECT_DIR$/templates/contact.html" />
         <option value="$PROJECT_DIR$/templates/planes.html" />
-        <option value="$PROJECT_DIR$/jazmines/views.py" />
-        <option value="$PROJECT_DIR$/exequiales/urls.py" />
-        <option value="$PROJECT_DIR$/templates/sesion_obituarios.html" />
         <option value="$PROJECT_DIR$/templates/alianzas.html" />
         <option value="$PROJECT_DIR$/templates/convenios.html" />
         <option value="$PROJECT_DIR$/static/css/style_convenios.css" />
         <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/templates/agregar_obituarios.html" />
-        <option value="$PROJECT_DIR$/templates/modificar_obituarios.html" />
+        <option value="$PROJECT_DIR$/static/css/style.css" />
+        <option value="$PROJECT_DIR$/static/assets/stylesheets/themes.css" />
+        <option value="$PROJECT_DIR$/jazmines/views.py" />
+        <option value="$PROJECT_DIR$/exequiales/urls.py" />
+        <option value="$PROJECT_DIR$/templates/actualizar_noticias.html" />
+        <option value="$PROJECT_DIR$/templates/historico_eventos.html" />
+        <option value="$PROJECT_DIR$/templates/modificar_eventos.html" />
+        <option value="$PROJECT_DIR$/templates/sesion_obituarios.html" />
         <option value="$PROJECT_DIR$/templates/historico_obituarios.html" />
+        <option value="$PROJECT_DIR$/templates/sesion_eventos.html" />
+        <option value="$PROJECT_DIR$/templates/agregar_eventos.html" />
+        <option value="$PROJECT_DIR$/templates/modificar_obituarios.html" />
+        <option value="$PROJECT_DIR$/templates/agregar_obituarios.html" />
       </list>
     </option>
   </component>
@@ -213,14 +219,14 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -233,7 +239,70 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jazmines3-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jazmines3-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jazmines3-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jazmines3-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jazmines3-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jazmines3-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jazmines3-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jazmines3-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
@@ -502,15 +571,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2934947" sideWeight="0.46115288" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2932331" sideWeight="0.46115288" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3502455" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34994337" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2814871" sideWeight="0.5388471" order="2" side_tool="true" content_ui="tabs" />
@@ -545,60 +615,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/exequiales/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="34" column="29" lean-forward="false" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
-          <folding>
-            <element signature="e#619#660#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2604">
-          <caret line="124" column="65" lean-forward="false" selection-start-line="124" selection-start-column="65" selection-end-line="124" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/planes.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2604">
-          <caret line="124" column="65" lean-forward="false" selection-start-line="124" selection-start-column="65" selection-end-line="124" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2520">
-          <caret line="120" column="12" lean-forward="false" selection-start-line="120" selection-start-column="12" selection-end-line="120" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exequiales/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2226">
-          <caret line="106" column="1" lean-forward="false" selection-start-line="106" selection-start-column="1" selection-end-line="106" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jazmines/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="42" lean-forward="false" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1323">
-          <caret line="63" column="45" lean-forward="false" selection-start-line="63" selection-start-column="45" selection-end-line="63" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/planes.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1407">
@@ -778,20 +794,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35112">
-          <caret line="1848" column="14" lean-forward="false" selection-start-line="1848" selection-start-column="14" selection-end-line="1848" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/agregar_eventos.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1615">
-          <caret line="85" column="0" lean-forward="true" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="482">
@@ -820,46 +822,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jazmines/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/planes.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1558">
           <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exequiales/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="53" column="90" lean-forward="false" selection-start-line="53" selection-start-column="90" selection-end-line="53" selection-end-column="90" />
-          <folding>
-            <element signature="e#619#660#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/convenios.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3914">
+        <state relative-caret-position="4326">
           <caret line="206" column="106" lean-forward="false" selection-start-line="206" selection-start-column="106" selection-end-line="206" selection-end-column="106" />
-          <folding>
-            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/alianzas.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2527">
-          <caret line="133" column="83" lean-forward="false" selection-start-line="133" selection-start-column="83" selection-end-line="133" selection-end-column="83" />
           <folding>
             <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -868,7 +841,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/style_convenios.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17670">
+        <state relative-caret-position="19530">
           <caret line="930" column="20" lean-forward="false" selection-start-line="930" selection-start-column="20" selection-end-line="930" selection-end-column="20" />
           <folding />
         </state>
@@ -876,43 +849,141 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
+        <state relative-caret-position="8190">
           <caret line="390" column="75" lean-forward="false" selection-start-line="390" selection-start-column="75" selection-end-line="390" selection-end-column="75" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/agregar_obituarios.html">
+    <entry file="file://$PROJECT_DIR$/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="83" column="124" lean-forward="false" selection-start-line="83" selection-start-column="124" selection-end-line="83" selection-end-column="124" />
+        <state relative-caret-position="192">
+          <caret line="2994" column="0" lean-forward="true" selection-start-line="2994" selection-start-column="0" selection-end-line="2994" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/modificar_obituarios.html">
+    <entry file="file://C:/Python27/Lib/site-packages/django/template/defaulttags.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="84" column="124" lean-forward="false" selection-start-line="84" selection-start-column="124" selection-end-line="84" selection-end-column="124" />
+        <state relative-caret-position="179">
+          <caret line="1363" column="71" lean-forward="true" selection-start-line="1363" selection-start-column="71" selection-end-line="1363" selection-end-column="71" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/alianzas.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="133" column="83" lean-forward="false" selection-start-line="133" selection-start-column="83" selection-end-line="133" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets/stylesheets/themes.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="0" column="36906" lean-forward="false" selection-start-line="0" selection-start-column="36895" selection-end-line="0" selection-end-column="36906" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets/stylesheets/themes.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="4681" column="3" lean-forward="true" selection-start-line="4681" selection-start-column="3" selection-end-line="4681" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jazmines/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="61" column="47" lean-forward="false" selection-start-line="61" selection-start-column="47" selection-end-line="61" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exequiales/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="64" column="1" lean-forward="true" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+          <folding>
+            <element signature="e#619#660#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/actualizar_noticias.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="404" column="48" lean-forward="false" selection-start-line="404" selection-start-column="36" selection-end-line="404" selection-end-column="129" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/sesion_obituarios.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="84" column="124" lean-forward="false" selection-start-line="84" selection-start-column="124" selection-end-line="84" selection-end-column="124" />
+        <state relative-caret-position="189">
+          <caret line="405" column="129" lean-forward="false" selection-start-line="405" selection-start-column="129" selection-end-line="405" selection-end-column="129" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/historico_eventos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="208" column="129" lean-forward="false" selection-start-line="208" selection-start-column="129" selection-end-line="208" selection-end-column="129" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/historico_obituarios.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="86" column="20" lean-forward="true" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="2100">
+          <caret line="405" column="129" lean-forward="false" selection-start-line="405" selection-start-column="129" selection-end-line="405" selection-end-column="129" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/modificar_eventos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-177">
+          <caret line="230" column="120" lean-forward="true" selection-start-line="230" selection-start-column="120" selection-end-line="230" selection-end-column="120" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/sesion_eventos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1041">
+          <caret line="267" column="78" lean-forward="false" selection-start-line="267" selection-start-column="78" selection-end-line="267" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/agregar_eventos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="312" column="84" lean-forward="false" selection-start-line="312" selection-start-column="84" selection-end-line="312" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/modificar_obituarios.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="555" column="77" lean-forward="false" selection-start-line="555" selection-start-column="77" selection-end-line="555" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/agregar_obituarios.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1017">
+          <caret line="553" column="75" lean-forward="false" selection-start-line="553" selection-start-column="75" selection-end-line="553" selection-end-column="75" />
+          <folding />
         </state>
       </provider>
     </entry>
