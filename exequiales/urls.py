@@ -35,6 +35,10 @@ from jazmines.views import agregar_eventos
 from jazmines.views import historico_eventos
 from jazmines.views import sesion_eventos
 from jazmines.views import modificar_eventos
+from jazmines.views import sesion_usuario
+from jazmines.views import contacto_empresa
+
+
 urlpatterns = [
     # Examples:
     # url(r'^$', 'funerariajazmines.views.home', name='home'),
@@ -62,4 +66,8 @@ urlpatterns = [
     url(r'^historico_eventos-enconstruccion/$', historico_eventos, name="historico_eventos"),
     url(r'^modificar_eventos-enconstruccion/$', modificar_eventos, name="modificar_eventos"),
     url(r'^sesion_eventos-enconstruccion/$',sesion_eventos, name="sesion_eventos"),
+    url(r'^correo/$',sesion_usuario ,name="sesion_usuario" ),
+    url(r'^contacto_empresa/$', contacto_empresa, name="contacto_empresa"),
+
+
 ]

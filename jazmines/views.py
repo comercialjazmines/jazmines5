@@ -1,4 +1,11 @@
-from django.shortcuts import render
+from django.core.mail import EmailMessage
+from django.shortcuts import render, render_to_response
+from django.template import RequestContext
+
+
+from django.http import HttpResponseRedirect
+
+
 
 # Create your views here.
 def index(request):
@@ -60,3 +67,15 @@ def modificar_eventos(request):
 
 def sesion_eventos(request):
     return render(request, 'sesion_eventos.html')
+
+def sesion_usuario(request):
+    return render(request, 'sesion_usuario.html')
+
+
+
+def contacto_empresa(request):
+    return render(request, 'contacto_empresa.html')
+
+
+
+
