@@ -2771,6 +2771,10 @@ a.icon.gp {
         color: #b38f47;
         font-size: 16px !important;
     }
+    .dropdown-menu >li > a {
+        color: #b38f47 !important;
+        font-size: 16px !important;
+    }
 }
 @media (max-width:1470px){
      .navbar-default .navbar-nav > li > a {
@@ -2782,6 +2786,10 @@ a.icon.gp {
          color: #B38F47;
          font-weight: bold;
      }
+    .dropdown-menu >li > a {
+        color: #b38f47 !important;
+        font-size: 15px !important;
+    }
     ul.dropdown-menu.multi-column ul li a {
         color: #b38f47;
         font-size: 15px !important;
@@ -2847,6 +2855,10 @@ a.icon.gp {
         color: #B38F47;
         font-weight: bold;
     }
+    .dropdown-menu >li > a {
+        color: #b38f47 !important;
+        font-size: 15px !important;
+    }
 	.w3l_about_bottom_right p {
        margin: 1em 0 1em;
 	}
@@ -2873,6 +2885,10 @@ a.icon.gp {
          font-size: 15px !important;
          cursor: pointer;
      }
+     .dropdown-menu >li > a {
+        color: #b38f47 !important;
+        font-size: 15px !important;
+    }
      ul.dropdown-menu.multi-column ul li a {
         color: #b38f47;
         font-size: 15px !important;

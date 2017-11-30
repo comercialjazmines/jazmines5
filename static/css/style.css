@@ -57,7 +57,7 @@ body p{
 body li{
     font-family: 'Open Sans', sans-serif;
     color: #555;
-    font-size: 17px;
+    font-size: 15px;
     text-align: justify;
 
 }
@@ -2769,6 +2769,10 @@ a.icon.gp {
         color: #b38f47;
         font-size: 16px !important;
     }
+    .dropdown-menu >li > a {
+        color: #b38f47 !important;
+        font-size: 16px !important;
+    }
     .navbar-nav > li > a {
         padding: 0px !important;
         padding-right: 10px !important;
@@ -2820,6 +2824,10 @@ a.icon.gp {
         font-size: 15px !important;
          cursor: pointer;
 	}
+    .dropdown-menu >li > a {
+        color: #b38f47 !important;
+        font-size: 15px !important;
+    }
     ul.dropdown-menu.multi-column ul li a {
         color: #b38f47;
         font-size: 15px !important;
@@ -2859,6 +2867,10 @@ a.icon.gp {
 	.w3l_about_bottom_right p {
        margin: 1em 0 1em;
 	}
+    .dropdown-menu >li > a {
+        color: #b38f47 !important;
+        font-size: 15px !important;
+    }
     .list_item {
         font-size: 15px !important;
          cursor: pointer;
@@ -2893,6 +2905,10 @@ a.icon.gp {
     .navbar-nav > li > a {
         padding: 0px !important;
         padding-right: 10px !important;
+    }
+    .dropdown-menu >li > a {
+        color: #b38f47 !important;
+        font-size: 15px !important;
     }
     .list_item {
         font-size: 15px !important;
