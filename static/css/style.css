@@ -295,7 +295,8 @@ ul.dropdown-menu.multi-column ul li{
     position: relative;
 }
 ul.dropdown-menu.multi-column ul li a{
-	color:#212121;
+	color:#b38f47;
+    font-size: 15px !important;
 }
 ul.dropdown-menu.multi-column {
     width: 400px;
@@ -306,9 +307,9 @@ ul.dropdown-menu.multi-column ul li a:hover{
 	color: #fe423f;
 }
 .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
-    color: #ffffff;
+    color: #b38f47;
     text-decoration: none;
-    background-color: #000000;
+    background-color: #FFFFFF;
 }
 .dropdown-menu {
 	border-radius:0;
@@ -2736,7 +2737,6 @@ a.icon.gp {
 	font-size: 0.5em;
     position: relative;
     font-weight: bold;
-    font-style: italic;
     text-transform: none;
    letter-spacing: 1px;
 	color:#B38F47;
@@ -2765,6 +2765,10 @@ a.icon.gp {
         cursor: pointer;
 
     }
+    ul.dropdown-menu.multi-column ul li a {
+        color: #b38f47;
+        font-size: 16px !important;
+    }
     .navbar-nav > li > a {
         padding: 0px !important;
         padding-right: 10px !important;
@@ -2782,7 +2786,6 @@ a.icon.gp {
 	font-size: 0.5em;
     position: relative;
     font-weight: bold;
-    font-style: italic;
     text-transform: none;
    letter-spacing: .3px;
 	color:#B38F47;
@@ -2814,9 +2817,13 @@ a.icon.gp {
         text-align: center;
     }
     .list_item{
-        font-size: 12px !important;
+        font-size: 15px !important;
          cursor: pointer;
 	}
+    ul.dropdown-menu.multi-column ul li a {
+        color: #b38f47;
+        font-size: 15px !important;
+    }
 	.baner-info h4 {
 		letter-spacing: 8px;
 	}
@@ -2843,7 +2850,6 @@ a.icon.gp {
 	font-size: 0.5em;
     position: relative;
     font-weight: bold;
-    font-style: italic;
     text-transform: none;
    letter-spacing: .2px;
 	color:#B38F47;
@@ -2856,6 +2862,10 @@ a.icon.gp {
     .list_item {
         font-size: 15px !important;
          cursor: pointer;
+    }
+    ul.dropdown-menu.multi-column ul li a {
+        color: #b38f47;
+        font-size: 15px !important;
     }
     .navbar-nav > li > a {
         padding: 0px !important;
@@ -2875,7 +2885,6 @@ a.icon.gp {
 	font-size: 0.5em;
     position: relative;
     font-weight: bold;
-    font-style: italic;
     text-transform: none;
    letter-spacing: .1px;
 	color:#B38F47;
@@ -2888,6 +2897,10 @@ a.icon.gp {
     .list_item {
         font-size: 15px !important;
          cursor: pointer;
+    }
+    ul.dropdown-menu.multi-column ul li a {
+        color: #b38f47;
+        font-size: 15px !important;
     }
 	.baner-info h3 {
 		font-size: 3em;
@@ -2949,7 +2962,6 @@ a.icon.gp {
 	font-size: 0.5em;
     position: relative;
     font-weight: bold;
-    font-style: italic;
     text-transform: none;
    letter-spacing: .1rem;
 	color:#B38F47;
@@ -3062,7 +3074,6 @@ a.icon.gp {
 	font-size: 0.5em;
     position: relative;
     font-weight: bold;
-    font-style: italic;
     text-transform: none;
    letter-spacing: .1rem;
 	color:#B38F47;
@@ -3119,7 +3130,6 @@ a.icon.gp {
 	font-size: 0.5em;
     position: relative;
     font-weight: bold;
-    font-style: italic;
     text-transform: none;
    letter-spacing: .1rem;
 	color:#B38F47;
@@ -3543,7 +3553,7 @@ a.icon.gp {
 		text-align: center;
 	}
 	.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
-		color:#00acee!important;
+		color:#b38f47!important;
 		
 	}
 	.navbar-nav > li > a {

@@ -241,7 +241,7 @@ ul.nav.navbar-nav {
     min-height: inherit;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-       color: #FFFFFF;
+       color: #B38F47;
     background:none!important;
 }
 .navbar-nav > li {
@@ -2732,7 +2732,6 @@ a.icon.gp {
         font-size: 0.5em;
         position: relative;
         font-weight: bold;
-        font-style: italic;
         text-transform: none;
         letter-spacing: 1px;
         color: #B38F47;
@@ -2756,7 +2755,7 @@ a.icon.gp {
 		padding: 4em 0;
 	}
     .list_item{
-        font-size: 15px !important;
+        font-size: 16px !important;
          cursor: pointer;
 
 
@@ -2768,24 +2767,31 @@ a.icon.gp {
         height: 28px;
         text-align: center;
     }
+    ul.dropdown-menu.multi-column ul li a {
+        color: #b38f47;
+        font-size: 16px !important;
+    }
 }
 @media (max-width:1470px){
      .navbar-default .navbar-nav > li > a {
          font-size: 0.5em;
          position: relative;
          font-weight: bold;
-         font-style: italic;
          text-transform: none;
          letter-spacing: .3px;
          color: #B38F47;
          font-weight: bold;
      }
+    ul.dropdown-menu.multi-column ul li a {
+        color: #b38f47;
+        font-size: 15px !important;
+    }
 	.baner-info h3 {
 		font-size: 3.3em;
 		letter-spacing: 4px;
 	}
      .list_item {
-         font-size: 13px !important;
+         font-size: 15px !important;
           cursor: pointer;
 
      }
@@ -2836,7 +2842,6 @@ a.icon.gp {
         font-size: 0.5em;
         position: relative;
         font-weight: bold;
-        font-style: italic;
         text-transform: none;
         letter-spacing: .2px;
         color: #B38F47;
@@ -2859,7 +2864,6 @@ a.icon.gp {
 	font-size: 0.5em;
     position: relative;
     font-weight: bold;
-    font-style: italic;
     text-transform: none;
    letter-spacing: .1px;
 	color:#B38F47;
@@ -2869,6 +2873,10 @@ a.icon.gp {
          font-size: 15px !important;
          cursor: pointer;
      }
+     ul.dropdown-menu.multi-column ul li a {
+        color: #b38f47;
+        font-size: 15px !important;
+    }
     .navbar-nav > li > a {
         padding: 0px !important;
         padding-right: 10px !important;
@@ -2931,7 +2939,6 @@ a.icon.gp {
 	font-size: 0.5em;
     position: relative;
     font-weight: bold;
-    font-style: italic;
     text-transform: none;
    letter-spacing: .1rem;
 	color:#B38F47;
@@ -3039,6 +3046,24 @@ a.icon.gp {
 	}
 }
 @media (max-width:1024px){
+
+    .navbar-default .navbar-nav > li > a {
+	font-size: 0.5em;
+    position: relative;
+    font-weight: bold;
+    text-transform: none;
+   letter-spacing: .1rem;
+	color:#B38F47;
+    font-weight: bold;
+
+}
+    ul.nav.navbar-nav {
+		margin-top: 2em;
+        margin-left: 2em;
+        background-color: #FFFFFF;
+        height: 28px;
+        text-align: center;
+	}
 	
 	.navbar-nav > li {
 		margin: 0 0.3em;
