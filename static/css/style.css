@@ -2904,7 +2904,7 @@ a.icon.gp {
 }
     .navbar-nav > li > a {
         padding: 0px !important;
-        padding-right: 10px !important;
+        padding-right: 6px !important;
     }
     .dropdown-menu >li > a {
         color: #b38f47 !important;
