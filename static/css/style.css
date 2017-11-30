@@ -242,7 +242,7 @@ ul.nav.navbar-nav {
     min-height: inherit;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-       color: #FFFFFF;
+       color: #B38F47;
     background:none!important;
 }
 .navbar-nav > li {
@@ -269,7 +269,7 @@ ul.nav.navbar-nav.navbar-right {
 
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus,.navbar-default .navbar-nav li a.active {
-    color: #ffffff;
+    color: #B38F47;
 	background:none!important;
 }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
@@ -277,7 +277,7 @@ ul.nav.navbar-nav.navbar-right {
     background:#009900!important;
 }
 .navbar-default .navbar-nav>li>a.active, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
-      color: #ffffff;
+      color: #B38F47;
      background:none!important;
 }
 .navbar-right {
@@ -2732,6 +2732,17 @@ a.icon.gp {
 }
 /*-- /responsive --*/
 @media (max-width: 1920px){
+   .navbar-default .navbar-nav > li > a {
+	font-size: 0.5em;
+    position: relative;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: none;
+   letter-spacing: .1rem;
+	color:#B38F47;
+    font-weight: bold;
+
+}
     .baner-info h3 {
 		font-size: 3.3em;
 		letter-spacing: 4px;
@@ -2751,20 +2762,28 @@ a.icon.gp {
 	}
     .list_item{
         font-size: 14px !important;
-        border: #B88D3B;
 
     }
     ul.nav.navbar-nav{
         margin-top: 3em;
-        margin-left: 10em;
-        background-color: #B38F47;
-        border-width: 2px;
-        border-style: outset;
+        margin-left: 6em;
+        background-color: #FFFFFF;
         height: 28px;
         text-align: center;
     }
 }
 @media (max-width:1470px){
+     .navbar-default .navbar-nav > li > a {
+	font-size: 0.5em;
+    position: relative;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: none;
+   letter-spacing: .1rem;
+	color:#B38F47;
+    font-weight: bold;
+
+}
 	.baner-info h3 {
 		font-size: 3.3em;
 		letter-spacing: 4px;
@@ -2783,11 +2802,9 @@ a.icon.gp {
 		padding: 4em 0;
 	}
 	ul.nav.navbar-nav {
-		margin-left: 5em;
 		margin-top: 3em;
-        background-color: #B38F47;
-        border-width: 2px;
-        border-style: outset;
+        margin-left: 2em;
+        background-color: #FFFFFF;
         height: 28px;
         text-align: center;
 
@@ -2814,6 +2831,17 @@ a.icon.gp {
 	}
 }
 @media (max-width:1366px){
+     .navbar-default .navbar-nav > li > a {
+	font-size: 0.5em;
+    position: relative;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: none;
+   letter-spacing: .1rem;
+	color:#B38F47;
+    font-weight: bold;
+
+}
 	.w3l_about_bottom_right p {
        margin: 1em 0 1em;
 	}
@@ -2827,6 +2855,17 @@ a.icon.gp {
 	}
 }
 @media (max-width:1280px){
+     .navbar-default .navbar-nav > li > a {
+	font-size: 0.5em;
+    position: relative;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: none;
+   letter-spacing: .1rem;
+	color:#B38F47;
+    font-weight: bold;
+
+}
 	.baner-info h3 {
 		font-size: 3em;
 		letter-spacing: 4px;
@@ -2848,12 +2887,10 @@ a.icon.gp {
 		margin-bottom: 0.5em;
 	}
 	ul.nav.navbar-nav {
-		margin-left: 1em;
 		margin-top: 3em;
-        background-color: #B38F47;
-        border-width: 1px;
-        border-style: outset;
-        height: 25px;
+        margin-left: .5em;
+        background-color: #FFFFFF;
+        height: 28px;
         text-align: center;
 	}
     .navbar-default .navbar-nav > li > a {
@@ -2890,12 +2927,21 @@ a.icon.gp {
 	}
 }
 @media (max-width:1080px){
+     .navbar-default .navbar-nav > li > a {
+	font-size: 0.5em;
+    position: relative;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: none;
+   letter-spacing: .1rem;
+	color:#B38F47;
+    font-weight: bold;
+
+}
 	ul.nav.navbar-nav {
-		margin-left: 6em;
 		margin-top: 2em;
-        background-color: #B38F47;
-        border-width: 2px;
-        border-style: outset;
+        margin-left: 2em;
+        background-color: #FFFFFF;
         height: 28px;
         text-align: center;
 	}
@@ -2994,13 +3040,27 @@ a.icon.gp {
 }
 
 @media (max-width:1024px){
+     .navbar-default .navbar-nav > li > a {
+	font-size: 0.5em;
+    position: relative;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: none;
+   letter-spacing: .1rem;
+	color:#B38F47;
+    font-weight: bold;
+
+}
 	
 	.navbar-nav > li {
 		margin: 0 0.3em;
 	}
      ul.nav.navbar-nav{
-        margin-top: 1%;
-        margin-left: 10em;
+        margin-top: 1em;
+        margin-left: 3em;
+        background-color: #FFFFFF;
+        height: 28px;
+        text-align: center;
     }
 	.price-gd-top h5 {
 		font-size: 0.9em;
@@ -3037,6 +3097,17 @@ a.icon.gp {
 	}
 }
 @media (max-width:991px){
+     .navbar-default .navbar-nav > li > a {
+	font-size: 0.5em;
+    position: relative;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: none;
+   letter-spacing: .1rem;
+	color:#B38F47;
+    font-weight: bold;
+
+}
 	.spa-grid:nth-child(5),.spa-grid:nth-child(3) {
 		border: none;
 	}
