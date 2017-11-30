@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ce72b28-df06-49a3-8edb-fc183ad4ec18" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/bootstrap.css" afterPath="$PROJECT_DIR$/static/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/style.css" afterPath="$PROJECT_DIR$/static/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/style_convenios.css" afterPath="$PROJECT_DIR$/static/css/style_convenios.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/w3.css" afterPath="$PROJECT_DIR$/static/css/w3.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/about.html" afterPath="$PROJECT_DIR$/templates/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/alianzas.html" afterPath="$PROJECT_DIR$/templates/alianzas.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/contact.html" afterPath="$PROJECT_DIR$/templates/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/convenios.html" afterPath="$PROJECT_DIR$/templates/convenios.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/gallery.html" afterPath="$PROJECT_DIR$/templates/gallery.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/obituarios.html" afterPath="$PROJECT_DIR$/templates/obituarios.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/planes.html" afterPath="$PROJECT_DIR$/templates/planes.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/terminos.html" afterPath="$PROJECT_DIR$/templates/terminos.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -76,21 +64,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="2771" column="22" lean-forward="true" selection-start-line="2771" selection-start-column="22" selection-end-line="2771" selection-end-column="22" />
+            <state relative-caret-position="1299">
+              <caret line="2771" column="22" lean-forward="false" selection-start-line="2771" selection-start-column="22" selection-end-line="2771" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style_convenios.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style_convenios.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/css/style_convenios.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4452">
-              <caret line="328" column="23" lean-forward="true" selection-start-line="328" selection-start-column="23" selection-end-line="328" selection-end-column="23" />
+            <state relative-caret-position="544">
+              <caret line="2873" column="25" lean-forward="false" selection-start-line="2873" selection-start-column="25" selection-end-line="2873" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -140,7 +128,7 @@
         <entry file="file://$PROJECT_DIR$/templates/gallery.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="24" column="57" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="57" />
+              <caret line="24" column="57" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -224,8 +212,8 @@
         <option value="$PROJECT_DIR$/templates/obituarios.html" />
         <option value="$PROJECT_DIR$/templates/alianzas.html" />
         <option value="$PROJECT_DIR$/templates/about.html" />
-        <option value="$PROJECT_DIR$/static/css/style_convenios.css" />
         <option value="$PROJECT_DIR$/static/css/style.css" />
+        <option value="$PROJECT_DIR$/static/css/style_convenios.css" />
       </list>
     </option>
   </component>
@@ -922,7 +910,7 @@
     <entry file="file://$PROJECT_DIR$/templates/gallery.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="24" column="57" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="57" />
+          <caret line="24" column="57" lean-forward="false" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="57" />
           <folding />
         </state>
       </provider>
@@ -983,18 +971,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/style_convenios.css">
+    <entry file="file://$PROJECT_DIR$/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4452">
-          <caret line="328" column="23" lean-forward="true" selection-start-line="328" selection-start-column="23" selection-end-line="328" selection-end-column="23" />
+        <state relative-caret-position="1299">
+          <caret line="2771" column="22" lean-forward="false" selection-start-line="2771" selection-start-column="22" selection-end-line="2771" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/style.css">
+    <entry file="file://$PROJECT_DIR$/static/css/style_convenios.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="2771" column="22" lean-forward="true" selection-start-line="2771" selection-start-column="22" selection-end-line="2771" selection-end-column="22" />
+        <state relative-caret-position="544">
+          <caret line="2873" column="25" lean-forward="false" selection-start-line="2873" selection-start-column="25" selection-end-line="2873" selection-end-column="25" />
           <folding />
         </state>
       </provider>
