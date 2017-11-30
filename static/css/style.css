@@ -2738,7 +2738,7 @@ a.icon.gp {
     font-weight: bold;
     font-style: italic;
     text-transform: none;
-   letter-spacing: .1rem;
+   letter-spacing: 1px;
 	color:#B38F47;
     font-weight: bold;
 
@@ -2761,8 +2761,13 @@ a.icon.gp {
 		padding: 4em 0;
 	}
     .list_item{
-        font-size: 14px !important;
+        font-size: 16px !important;
+        cursor: pointer;
 
+    }
+    .navbar-nav > li > a {
+        padding: 0px !important;
+        padding-right: 10px !important;
     }
     ul.nav.navbar-nav{
         margin-top: 3em;
@@ -2810,6 +2815,7 @@ a.icon.gp {
     }
     .list_item{
         font-size: 12px !important;
+         cursor: pointer;
 	}
 	.baner-info h4 {
 		letter-spacing: 8px;
@@ -2848,7 +2854,12 @@ a.icon.gp {
        margin: 1em 0 1em;
 	}
     .list_item {
-        font-size: 12px !important;
+        font-size: 15px !important;
+         cursor: pointer;
+    }
+    .navbar-nav > li > a {
+        padding: 0px !important;
+        padding-right: 10px !important;
     }
 	.w3l_about_bottom_right {
 		padding: 1.6em 2em;
@@ -2875,7 +2886,8 @@ a.icon.gp {
         padding-right: 10px !important;
     }
     .list_item {
-        font-size: 10px !important;
+        font-size: 15px !important;
+         cursor: pointer;
     }
 	.baner-info h3 {
 		font-size: 3em;
@@ -2905,7 +2917,8 @@ a.icon.gp {
         text-align: center;
 	}
 
-    
+
+
 	.special-grids {
 		margin: 2em 0 0 0;
 	}
@@ -4603,8 +4616,7 @@ table {
 }
 
 .principal_text{
-    font-family: lucida !important;
-    font-size: 17px !important;
+    font-size: 16px !important;
 }
 .sentences{
     font-family: lucida !important;
