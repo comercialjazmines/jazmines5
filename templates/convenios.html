@@ -247,7 +247,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>-->
                     </div>
                 </div>
- <div class="w3-container">
+
+                    <div class="w3-container">
 
 
 
@@ -257,13 +258,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                   <header class="w3-container w3-green">
                                    <span onclick="document.getElementById('id02').style.display='none'"
                                    class="w3-button w3-green w3-xlarge w3-display-topright">&times;</span>
-                                   <h2>INFORMACION</h2>
+                                   <h2>SOLICITUD DE SERVICIO</h2>
                                   </header>
 
 
 
-                                  <div id="London" class="w3-container city">
-                                     <h5>Por favor ingresa el numero de identificacion.</h5>
+                            t      <div id="London" class="w3-container city">
+                                     <h5 style="text-transform:none">Ingrese el numero de identificacion para realizar tu solicitud de servicio</h5>
                                    <div class="form-group">
                                        <div class="col-sm-12">
                                            <input type="text" class="form-control" id="jq-validation-email" name="jq-validation-email">
@@ -318,10 +319,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                       <header class="w3-container w3-green">
                                         <span onclick="document.getElementById('id03').style.display='none'"
                                         class="w3-button w3-display-topright">&times;</span>
-                                        <h2>CONFIRMACION</h2>
+                                        <h2>CONFIRMACION DE SOLICITUD</h2>
+
                                       </header>
-                                      <div class="w3-container w3-padding-16">
-                                        <p>EL equipo de los jazmines en unos instantes atendera tu solicitud.</p>
+                                        <div class="w3-container w3-padding-16 w3-center">
+
+                                              <i class="fa fa-check-circle-o w3-text-green" aria-hidden="true" style="font-size: 9em"></i>
+
+
+                                      </div>
+                                      <div class="w3-container w3-padding-small ">
+                                        <h3 class="w3-center" style="text-transform:none">
+                                            Señor <span style="font-weight: bold">PABLO</span>, desde ya estamos trabajando para brindarle la
+                                            ayuda que necesita en estos momentos</h3>
+                                          <h3 class="w3-center w3-padding-small" style="text-transform:none">
+                                              En breve nos comunicaremos con usted.</h3>
 
                                       </div>
                                       <footer class="w3-container w3-white w3-padding-16">
@@ -330,6 +342,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                       </footer>
                                     </div>
                                   </div>
+                                        </div>
 
                                  <div class="w3-container">
 
@@ -341,30 +354,28 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                   <header class="w3-container w3-green">
                                    <span onclick="document.getElementById('id04').style.display='none'"
                                    class="w3-button w3-green w3-xlarge w3-display-topright">&times;</span>
-                                   <h2>INFORMACION</h2>
+                                   <h2>BIENVENIDO A EXEQUIALES LOS JAZMINES</h2>
                                   </header>
 
 
 
                                   <div id="London" class="w3-container city">
-                                     <h5 class="w3-padding-16">Por favor ingresa los siguientes datos y un asesor se comunicara en breve con usted para atender su solicitud</h5>
+                                     <h4 class="w3-padding-16" style="text-transform:none; font-weight: bold">Parece que eres nuevo por aqui</h4>
+                                       <h5 class="w3-padding-16" style="text-transform:none">Dejanos tus datos  y en breve un accesor exequial se pondra en contacto contigo para ayudarte</h5>
                                  <div class="form-group">
-								<label for="jq-validation-email" class="col-sm-3 control-label">NOMBRE COMPLETO</label>
 								<div class="col-sm-9">
-									<input type="text" class="form-control" id="jq-validation-email" name="jq-validation-email">
+									<input type="text" class="form-control" id="jq-validation-email" name="jq-validation-email" placeholder="Nombre Completo">
 								</div>
 							</div>
 							<div class="form-group">
-								<label for="jq-validation-email" class="col-sm-3 control-label">TELEFONO</label>
 								<div class="col-sm-9">
-									<input type="text" class="form-control" id="jq-validation-email" name="jq-validation-email">
+									<input type="text" class="form-control" id="jq-validation-email" name="jq-validation-email" placeholder="Numero de celular o fijo">
 								</div>
 							</div>
 
 							<div class="form-group">
-								<label for="jq-validation-password" class="col-sm-3 control-label">CORREO</label>
 								<div class="col-sm-9">
-									<input type="text" class="form-control" id="jq-validation-email" name="jq-validation-email">
+									<input type="text" class="form-control" id="jq-validation-email" name="jq-validation-email" placeholder="Correo Electronico">
 								</div>
                                   </div>
 
@@ -372,11 +383,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
                                   <div class="w3-container w3-white w3-padding">
 
-                                    <div class="w3-center">
-
-
-                                    <div class="w3-padding-32 w3-center">
-                                 <a href="{% url 'index' %}"> <button class="w3-button  w3-green w3-border">ACEPTAR</button></a>
+                                    <div class=" w3-padding-16">
+                                    <label class="w3-left">
+					            <input name="suscribe" value="1" checked="checked" type="checkbox" autocomplete="off">
+					             Acepto los <a style="color: #00ACEE; " href="{% url 'terminos' %}" target="_blank" >terminos y condiciones</a>
+                                        de la politica de tratamiento de datos personales</label>
+                                    </div>
+                                       <div class=" w3-padding-16">
+                                    <div class="w3-padding-16 w3-center">
+                                 <a href="{% url 'index' %}"> <button class="w3-button  w3-green w3-border">ENVIAR</button></a>
                                 </div>
                                        </div>
 
@@ -385,7 +400,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                 </div>
 
                                 </div>
-                                </div>
+                                </div>      </div>
                                         </div>
 
 
