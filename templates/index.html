@@ -42,6 +42,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <body>
 
 
+
 	<div id="demo-1" data-zs-src='["{% static 'images/4.jpg' %}", "{% static 'images/2.jpg' %}", "{% static 'images/1.jpg' %}","{% static 'images/3.jpg' %}"]' data-zs-overlay="dots">
 		<div class="demo-inner-content">
 		<!--/header-w3l-->
@@ -56,7 +57,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											<span class="icon-bar"></span>
 										</button>
 										<h1><a class="list_item" href="{% url 'index'  %}"><img class="logo" src="{% static 'images/jazmines.jpg' %}" style="width: 160px; height: auto;"></a>
-										 
+
 										</h1>
 									</div>
 									<!-- navbar-header -->
@@ -66,10 +67,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 											  <li><a class="list_item" href="{% url 'index' %}">Inicio</a></li>
 												<li><a  class="list_item" href="{% url 'about' %}">Quienes Somos</a></li>
 												<li><a class="list_item" href="{% url 'planes' %}">Planes</a></li>
-												<li><a  class="list_item"href="{% url 'gallery' %}">Parque-Cementerio</a></li>
+												<li><a  class="list_item"href="{% url 'gallery' %}">Parque Cementerio</a></li>
 
 												 <li class="dropdown">
-													<a class="list_item" href="#" class="dropdown-toggle " >Mas-Beneficios<b class="caret"></b></a>
+													<a class="list_item" href="#" class="dropdown-toggle " >Mas Beneficios<b class="caret"></b></a>
 													 <ul class="dropdown-menu">
 														<li><a href="{% url 'alianzas' %}">Alianzas</a></li>
 
@@ -81,8 +82,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 												</li>
 
 												<li><a class="list_item" href="{% url 'contacto' %}">Contacto</a></li>
-												<li><a class="list_item" href="{% url 'login' %}">Iniciar-Sesion</a></li>
-                                                <li><a class="list_item" onclick="document.getElementById('id02').style.display='block'">Solicitud-Servicio</a></li>
+												<li><a class="list_item" href="{% url 'login' %}">Iniciar Sesion</a></li>
 
 
 
@@ -90,9 +90,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										</ul>
 
 
-
 									</div>
-									<div class="clearfix"> </div>	
+
+
+
+
 								</nav>
 
 					
@@ -115,6 +117,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
  <!--//main-header-->
  	<div class="special featured">
 		  <div class="container grandtext">
+              <div id="cotizarbot">
+		<a class="botton-cot list_item" onclick="document.getElementById('id02').style.display='block'"></a>
+              </div>
 				   <div class="ab-w3l-spa">
 				        <h3 class="tittle" style="color: #B38F47">BENEFICIOS</h3>
 						
@@ -408,18 +413,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 
 
-                            t      <div id="London" class="w3-container city">
-                                     <h5 style="text-transform:none">Ingrese el numero de identificacion para realizar tu solicitud de servicio</h5>
-                                   <div class="form-group">
-                                       <div class="col-sm-12">
-                                           <input type="text" class="form-control" id="jq-validation-email" name="jq-validation-email">
+                           <div id="London" class="w3-container city">
+                                     <h5 class="w3-center w3-padding-16" style="text-transform:none">Ingrese el numero de identificacion para realizar tu solicitud de servicio</h5>
+                                   <div class="form-group ">
+                                       <div class="col-md-6 col-md-offset-3">
+                                           <input type="text"  align="middle" class="form-control" id="jq-validation-email" name="jq-validation-email" placeholder="Digite el numero de identificacion">
                                        </div>
                                    </div>
                                   </div>
 
 
-
-                                  <div class="w3-container w3-white w3-padding">
+                                  <div class="w3-container w3-white w3-padding-16">
 
                                     <div class="w3-center">
 
@@ -474,11 +478,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
                                       </div>
                                       <div class="w3-container w3-padding-small ">
-                                        <h3 class="w3-center" style="text-transform:none">
+                                        <h5 class="w3-center" style="text-transform:none">
                                             Señor <span style="font-weight: bold">PABLO</span>, desde ya estamos trabajando para brindarle la
-                                            ayuda que necesita en estos momentos</h3>
-                                          <h3 class="w3-center w3-padding-small" style="text-transform:none">
-                                              En breve nos comunicaremos con usted.</h3>
+                                            ayuda que necesita en estos momentos</h5>
+                                          <h5 class="w3-center w3-padding-small" style="text-transform:none">
+                                              En breve nos comunicaremos con usted.</h5>
 
                                       </div>
                                       <footer class="w3-container w3-white w3-padding-16">

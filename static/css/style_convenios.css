@@ -1530,6 +1530,28 @@ h3.tittle.why {
       border-color: #00acee;
     background: #00acee;
 }
+#cotizarbot {
+	position: fixed;
+	bottom: 0px;
+	right: 20px;
+	z-index: 999;
+}
+
+#cotizarbot .botton-cot {
+	background-image: url('images/sc1.png');
+	display: block;
+	width: 172px;
+	height: 110px;
+	-webkit-transition: all 300ms ease;
+-moz-transition: all 300ms ease;
+-ms-transition: all 300ms ease;
+-o-transition: all 300ms ease;
+transition: all 300ms ease;
+}
+
+#cotizarbot .botton-cot:hover {
+	height: 130px;
+}
 .panel-default > .panel-heading {
     border-color: #FFF;
 	color:#212121;
@@ -2733,7 +2755,7 @@ a.icon.gp {
         position: relative;
         font-weight: bold;
         text-transform: none;
-        letter-spacing: 1px;
+        letter-spacing: 3.5px;
         color: #B38F47;
         font-weight: bold;
     }
@@ -2782,7 +2804,7 @@ a.icon.gp {
          position: relative;
          font-weight: bold;
          text-transform: none;
-         letter-spacing: .3px;
+         letter-spacing: 1px;
          color: #B38F47;
          font-weight: bold;
      }
@@ -2851,7 +2873,7 @@ a.icon.gp {
         position: relative;
         font-weight: bold;
         text-transform: none;
-        letter-spacing: .2px;
+        letter-spacing: 1px;
         color: #B38F47;
         font-weight: bold;
     }

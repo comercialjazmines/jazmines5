@@ -39,6 +39,7 @@ from jazmines.views import sesion_usuario
 from jazmines.views import contacto_empresa
 
 
+
 urlpatterns = [
     # Examples:
     # url(r'^$', 'funerariajazmines.views.home', name='home'),

@@ -81,6 +81,7 @@ body {
 	position:relative;
 	padding: 3em;
 	background:rgba(0, 0, 0, 0.58);
+	height: 350px;
 }
 .sub-main-w3 input[type="email"], .sub-main-w3 input[type="password"] {
     outline: none;
@@ -101,21 +102,19 @@ body {
     color: #fff;
     background: #009900;
     border: none;
-    padding: .5em 4em;
+    padding: .5em 3em;
     outline: none;
     font-size: 1.2em;
     cursor: pointer;
-    letter-spacing: 1px;
-	margin-top: 2.5em;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -o-transition: 0.5s all;
     -moz-transition: 0.5s all;
     -ms-transition: 0.5s all;
-font-family: 'Raleway', sans-serif;
+font-family: 'Open Sans', sans-serif;
 }
 .sub-main-w3 input[type="submit"]:hover {
-    background: #ff0b00;
+    background: #b38f47;
     color: #000;
 }
 span.icon1, span.icon2 {
