@@ -1538,9 +1538,9 @@ h3.tittle.why {
 }
 
 #cotizarbot .botton-cot {
-	background-image: url('images/sc1.png');
+	background-image: url('images/btn_jazmines.png');
 	display: block;
-	width: 172px;
+	width: 177px;
 	height: 110px;
 	-webkit-transition: all 300ms ease;
 -moz-transition: all 300ms ease;
@@ -1550,7 +1550,7 @@ transition: all 300ms ease;
 }
 
 #cotizarbot .botton-cot:hover {
-	height: 130px;
+	height: 132px;
 }
 .panel-default > .panel-heading {
     border-color: #FFF;
