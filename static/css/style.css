@@ -2631,6 +2631,13 @@ a.mail:hover {
 .social .fb:after{
     border-color:#6788ce;
 }
+.social .it{
+    background: #b38f47;
+}
+.social .it:before,
+.social .it:after{
+    border-color:#b38f47;
+}
 .social .tw{
     background: #00ACEE;
 }
@@ -4757,9 +4764,9 @@ table {
 }
 
 #cotizarbot .botton-cot {
-	background-image: url('images/btn_jazmines.png');
+	background-image: url('images/btn_jazmines (2).png');
 	display: block;
-	width: 177px;
+	width: 179px;
 	height: 110px;
 	-webkit-transition: all 300ms ease;
 -moz-transition: all 300ms ease;
@@ -4769,7 +4776,7 @@ transition: all 300ms ease;
 }
 
 #cotizarbot .botton-cot:hover {
-	height: 132px;
+	height: 137px;
 }
 
 

@@ -1,0 +1,18 @@
+https://stackoverflow.com/questions/28127513/attributeerror-module-object-has-no-attribute-setdefaultencoding
+
+File "C:\Python34\lib\site-packages\xadmin\sites.py", line 10, in <module>
+sys.setdefaultencoding("utf-8")
+AttributeError: 'module' object has no attribute 'setdefaultencoding'
+This is the extract of source code from sites.py in xadmin plugin :
+
+import sys
+from functools import update_wrapper
+from django.conf import settings
+from django.core.exceptions import ImproperlyConfigured
+from django.db.models.base import ModelBase
+from django.views.decorators.cache import never_cache
+from imp import reload
+
+reload(sys)
+sys.setdefaultencoding("utf-8")
+

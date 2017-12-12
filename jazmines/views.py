@@ -77,5 +77,3 @@ def contacto_empresa(request):
     return render(request, 'contacto_empresa.html')
 
 
-
-

@@ -82,13 +82,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 													 <ul class="dropdown-menu">
 														<li><a href="{% url 'alianzas' %}">Alianzas</a></li>
 
-														<li><a href="{% url 'convenios' %}">Convenios</a></li>
+
 													</ul>
 												</li>
 
 												<li><a class="list_item" href="{% url 'contacto' %}">Contacto</a></li>
 												<li><a class="list_item" href="{% url 'login' %}">Iniciar-Sesion</a></li>
-                                                  <li><a class="list_item" onclick="document.getElementById('id02').style.display='block'">Solicitud-Servicio</a></li>
+
 
 
 										</ul>
@@ -502,8 +502,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 
 					</div>
+                     <div id="cotizarbot">
+		<a class="botton-cot list_item" onclick="document.getElementById('id02').style.display='block'"></a>
+              </div>
 
-                    <div class="w3-container">
+                     <div class="w3-container">
 
 
 
@@ -512,24 +515,23 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                  <div class="w3-modal-content w3-card-4 w3-animate-zoom">
                                   <header class="w3-container w3-green">
                                    <span onclick="document.getElementById('id02').style.display='none'"
-                                   class="w3-button w3-green w3-xlarge w3-display-topright">&times;</span>
-                                   <h2>SOLICITUD DE SERVICIO</h2>
+                                   class="w3-button w3-green w3-large w3-display-topright">&times;</span>
+                                   <h3>SOLICITUD DE SERVICIO</h3>
                                   </header>
 
 
 
-                            t      <div id="London" class="w3-container city">
-                                     <h5 style="text-transform:none">Ingrese el numero de identificacion para realizar tu solicitud de servicio</h5>
-                                   <div class="form-group">
-                                       <div class="col-sm-12">
-                                           <input type="text" class="form-control" id="jq-validation-email" name="jq-validation-email">
+                           <div id="London" class="w3-container city">
+                                     <h5 class="w3-center w3-padding-32" style="text-transform:none">Ingrese el numero de identificacion para realizar tu solicitud de servicio</h5>
+                                   <div class="form-group ">
+                                       <div class="col-md-6 col-md-offset-3">
+                                           <input type="text"  align="middle" class="form-control" id="jq-validation-email" name="jq-validation-email" placeholder="Digite el numero de identificacion">
                                        </div>
                                    </div>
                                   </div>
 
 
-
-                                  <div class="w3-container w3-white w3-padding">
+                                  <div class="w3-container w3-white w3-padding-32">
 
                                     <div class="w3-center">
 
@@ -574,7 +576,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                       <header class="w3-container w3-green">
                                         <span onclick="document.getElementById('id03').style.display='none'"
                                         class="w3-button w3-display-topright">&times;</span>
-                                        <h2>CONFIRMACION DE SOLICITUD</h2>
+                                        <h3>CONFIRMACION DE SOLICITUD</h3>
 
                                       </header>
                                         <div class="w3-container w3-padding-16 w3-center">
@@ -584,11 +586,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
                                       </div>
                                       <div class="w3-container w3-padding-small ">
-                                        <h3 class="w3-center" style="text-transform:none">
+                                        <h5 class="w3-center" style="text-transform:none">
                                             Señor <span style="font-weight: bold">PABLO</span>, desde ya estamos trabajando para brindarle la
-                                            ayuda que necesita en estos momentos</h3>
-                                          <h3 class="w3-center w3-padding-small" style="text-transform:none">
-                                              En breve nos comunicaremos con usted.</h3>
+                                            ayuda que necesita en estos momentos</h5>
+                                          <h5 class="w3-center w3-padding-small" style="text-transform:none">
+                                              En breve nos comunicaremos con usted.</h5>
 
                                       </div>
                                       <footer class="w3-container w3-white w3-padding-16">
@@ -608,8 +610,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                  <div class="w3-modal-content w3-card-4 w3-animate-zoom">
                                   <header class="w3-container w3-green">
                                    <span onclick="document.getElementById('id04').style.display='none'"
-                                   class="w3-button w3-green w3-xlarge w3-display-topright">&times;</span>
-                                   <h2>BIENVENIDO A EXEQUIALES LOS JAZMINES</h2>
+                                   class="w3-button w3-green w3-large w3-display-topright">&times;</span>
+                                   <h3>BIENVENIDO A EXEQUIALES LOS JAZMINES</h3>
                                   </header>
 
 
@@ -656,7 +658,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
                                 </div>
                                 </div>
-
 
 
 	  <!-- welcome --
@@ -974,7 +975,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="w3l-footer">
 		<div class="container">
          <div class="footer-info-agile row" >
-				<div class="col-md-2 footer-info-grid links">
+				<div class="col-md-4 footer-info-grid links">
 					<h4>links Rapidos</h4>
 					<ul>
 						       <li><a href="{% url 'index' %}">Inicio</a></li>
@@ -985,7 +986,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<li><a href="{% url 'terminos' %}">Terminos y Condiciones</a></li>
 					</ul>
 				</div>
-				<div class="col-md-3 footer-info-grid address">
+				<div class="col-md-4 footer-info-grid address">
 					<h4>DIRECCION</h4>
 					<address>
 						<ul>
@@ -997,33 +998,23 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</ul>
 					</address>
 				</div>
-				<div class="col-md-3 footer-grid">
-				   <h4>Instagram</h4>
-					<div class="footer-grid-instagram">
-					<a href="https://www.instagram.com/parquecemeneriolosjazmines/" target="_blank"><img src="{% static 'images/cementerio5.jpg' %}" alt=" " class="img-responsive"></a>
-					</div>
-					<div class="footer-grid-instagram">
-					<a href="https://www.instagram.com/parquecemeneriolosjazmines/" target="_blank"><img src="{% static 'images/cementerio5.jpg' %}" alt=" " class="img-responsive"></a>
-					</div>
-					<div class="footer-grid-instagram">
-					<a href="https://www.instagram.com/parquecemeneriolosjazmines/" target="_blank"><img src="{% static 'images/cementerio5.jpg' %}" alt=" " class="img-responsive"></a>
-					</div>
-					<div class="footer-grid-instagram">
-					<a href="https://www.instagram.com/parquecemeneriolosjazmines/" target="_blank"><img src="{% static 'images/cementerio5.jpg' %}" alt=" " class="img-responsive"></a>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
+
 				<div class="col-md-4  footer-info-grid">
 				<div class="connect-social">
 					<h4>Conectate con nosotros</h4>
 					<section class="social">
                         <ul>
 							<li><a class="icon fb" href="https://www.facebook.com/exequialeslosjazminess.a.s/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-							
-							
-							
-					
+
+							 <li><a class="icon it" href="https://www.instagram.com/parquecemeneriolosjazmines/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+
+
 							<li><a class="icon gp" href="https://plus.google.com/u/0/117740488235666769095" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+
+
+
+
+
 						</ul>
 					</section>
 

@@ -81,7 +81,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 													 <ul class="dropdown-menu">
 														<li><a href="{% url 'alianzas' %}">Convenios</a></li>
 
-														<li><a href="{% url 'convenios' %}">Alianzas</a></li>
+
 
 
 													</ul>
@@ -154,7 +154,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<div class="col-md-3 w3_agileits_services_grid hvr-overline-from-center">
 									<div class="w3_agileits_services_grid_agile">
 										<div class="w3_agileits_services_grid_1">
-											<!--	<img src="images/5.jpg" alt="service-img">-->
+												<img src="{% static 'images/isotipo_308x206.png' %}" alt="service-img">
 										</div>
 										<h3>UNIREMINGTON</h3>
 										<p>PEREIRA</p>
@@ -185,7 +185,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<div class="col-md-3 w3_agileits_services_grid hvr-overline-from-center">
 									<div class="w3_agileits_services_grid_agile">
 										<div class="w3_agileits_services_grid_1">
-											<!--	<img src="images/5.jpg" alt="service-img">-->
+											<img src="{% static 'images/san francisco_308x206.jpg' %}" alt="service-img">
 										</div>
 										<h3>CLINICA VETERINARIA</h3>
 										<p>SANTA ROSA DE CABAL</p>
@@ -265,7 +265,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<div class="col-md-3 w3_agileits_services_grid hvr-overline-from-center">
 									<div class="w3_agileits_services_grid_agile">
 										<div class="w3_agileits_services_grid_1">
-											<!--	<img src="images/5.jpg" alt="service-img">-->
+											<img src="{% static 'images/logo artelares registrado 1_308x206.jpg' %}" alt="service-img">
 										</div>
 										<h3>ARTELARES</h3>
 										<p>SANTA ROSA DE CABAL</p>
@@ -780,8 +780,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
  <!-- Footer -->
 	<div class="w3l-footer">
 		<div class="container">
-         <div class="footer-info-agile row" >
-				<div class="col-md-2 footer-info-grid links">
+        <div class="footer-info-agile row" >
+				<div class="col-md-4 footer-info-grid links">
 					<h4>links Rapidos</h4>
 					<ul>
 						       <li><a href="{% url 'index' %}">Inicio</a></li>
@@ -792,7 +792,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<li><a href="{% url 'terminos' %}">Terminos y Condiciones</a></li>
 					</ul>
 				</div>
-				<div class="col-md-3 footer-info-grid address">
+				<div class="col-md-4 footer-info-grid address">
 					<h4>DIRECCION</h4>
 					<address>
 						<ul>
@@ -804,22 +804,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</ul>
 					</address>
 				</div>
-				<div class="col-md-3 footer-grid">
-				   <h4>Instagram</h4>
-					<div class="footer-grid-instagram">
-					<a href="https://www.instagram.com/parquecemeneriolosjazmines/" target="_blank"><img src="{% static 'images/cementerio5.jpg' %}" alt=" " class="img-responsive"></a>
-					</div>
-					<div class="footer-grid-instagram">
-					<a href="https://www.instagram.com/parquecemeneriolosjazmines/" target="_blank"><img src="{% static 'images/cementerio5.jpg' %}" alt=" " class="img-responsive"></a>
-					</div>
-					<div class="footer-grid-instagram">
-					<a href="https://www.instagram.com/parquecemeneriolosjazmines/" target="_blank"><img src="{% static 'images/cementerio5.jpg' %}" alt=" " class="img-responsive"></a>
-					</div>
-					<div class="footer-grid-instagram">
-					<a href="https://www.instagram.com/parquecemeneriolosjazmines/" target="_blank"><img src="{% static 'images/cementerio5.jpg' %}" alt=" " class="img-responsive"></a>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
+
 				<div class="col-md-4  footer-info-grid">
 				<div class="connect-social">
 					<h4>Conectate con nosotros</h4>
@@ -827,10 +812,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <ul>
 							<li><a class="icon fb" href="https://www.facebook.com/exequialeslosjazminess.a.s/" target="_blank"><i class="fa fa-facebook"></i></a></li>
 
-
+							 <li><a class="icon it" href="https://www.instagram.com/parquecemeneriolosjazmines/" target="_blank"><i class="fa fa-instagram"></i></a></li>
 
 
 							<li><a class="icon gp" href="https://plus.google.com/u/0/117740488235666769095" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+
+
+
+
+
 						</ul>
 					</section>
 
