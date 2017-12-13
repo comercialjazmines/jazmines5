@@ -77,3 +77,40 @@ def contacto_empresa(request):
     return render(request, 'contacto_empresa.html')
 
 
+
+"""
+class VisualizarUsuario(LoginRequiredMixin, View):
+    login_url = "/"
+    template_name = 'sesion_usuario'
+
+    def get(self, request, iusuario):
+
+        try:
+            siembra = ControlSiembra.objects.get(pk=cc_usuario)
+            form = usuarioform(instance=siembra)
+            return render(request, self.template_name, {'form':form})
+
+        except ControlSiembra.DoesNotExist:
+            return render(request, "pages-404.html")
+
+"""
+
+"""
+class AgregarControlSiembraAdministrador(LoginRequiredMixin, View):
+    login_url = '/'
+    form_class = ControlSiembraForm
+    template_name = 'administrador/Controles/Siembra/agregar.html'
+
+    def get(self, request):
+        try:
+            form = self.form_class()
+            return render(request, self.template_name, {'form': form})
+
+        except self.form_class().DoesNotExist:
+            return render(request, "pages-404.html", {
+                "msg": "No Tiene Datos Registrados. Comuniquede con el Administrador del Sistema"})
+"""
+
+"""
+
+"""
